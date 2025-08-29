@@ -78,7 +78,17 @@ export default function Home() {
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl transition-colors duration-300">
               Hephaestus Team
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300 transition-colors duration-300">
+            
+            {/* Large Hephaestus Logo */}
+            <div className="mt-8 flex justify-center">
+              <img 
+                src="/logo.png" 
+                alt="Hephaestus Logo" 
+                className="h-40 w-40 opacity-90 hover:opacity-100 transition-opacity duration-300"
+              />
+            </div>
+            
+            <p className="mt-8 text-lg leading-8 text-gray-600 dark:text-gray-300 transition-colors duration-300">
               University Robotics and Automation & Informatics Team dedicated to innovation, 
               research, and pushing the boundaries of technology through cutting-edge projects 
               and collaborative learning.
@@ -94,6 +104,7 @@ export default function Home() {
                 Meet the Team <span className="inline-block group-hover:translate-x-2 transition-transform duration-300 ease-out" aria-hidden="true">→</span>
               </Link>
             </div>
+
           </div>
         </div>
         
@@ -125,46 +136,92 @@ export default function Home() {
       {/* Image Slideshow Section */}
       <div className="py-24 relative overflow-hidden">
         {/* Animated Background with Image Icons */}
-        <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 overflow-hidden z-0">
+          
           {/* Floating Camera Icons */}
-          <div className="absolute top-20 left-20 w-12 h-12 opacity-20 animate-bounce" style={{animationDelay: '0s', animationDuration: '4s'}}>
+          <div className="absolute top-4 left-4 w-12 h-12 opacity-25" style={{animation: 'float-random-1 45s ease-in-out infinite', animationDelay: '0s'}}>
             <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-purple-400">
-              <path d="M12 15.5A3.5 3.5 0 0 1 8.5 12A3.5 3.5 0 0 1 12 8.5a3.5 3.5 0 0 1 3.5 3.5a3.5 3.5 0 0 1-3.5 3.5m7.43-2.53c.04-.32.07-.64.07-.97c0-.33-.03-.66-.07-1l2.11-1.63c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.31-.61-.22l-2.49 1c-.52-.39-1.06-.73-1.69-.98l-.37-2.65A.506.506 0 0 0 14 2h-4c-.25 0-.46.18-.5.42l-.37 2.65c-.63.25-1.17.59-1.69.98l-2.49-1c-.22-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64L4.57 11c-.04.34-.07.67-.07 1c0 .33.03.65.07.97L2.46 14.6c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.31.61.22l2.49-1c.52.39 1.06.73 1.69.98l.37 2.65c.04.24.25.42.5.42h4c.25 0 .46-.18.5-.42l.37-2.65c.63-.25 1.17-.59 1.69-.98l2.49 1c.22.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.63Z"/>
+              <path d="M9 3L7.17 5H4C2.9 5 2 5.9 2 7V19C2 20.1 2.9 21 4 21H20C21.1 21 22 20.1 22 19V7C22 5.9 21.1 5 20 5H16.83L15 3H9M12 18C8.69 18 6 15.31 6 12S8.69 6 12 6S18 8.69 18 12S15.31 18 12 18M12 8C9.79 8 8 9.79 8 12S9.79 16 12 16S16 14.21 16 12S14.21 8 12 8Z"/>
             </svg>
           </div>
-          
-          {/* Floating Image Icons */}
-          <div className="absolute top-40 right-32 w-10 h-10 opacity-25 animate-bounce" style={{animationDelay: '1s', animationDuration: '3.5s'}}>
+          <div className="absolute top-8 right-4 w-10 h-10 opacity-30" style={{animation: 'space-drift 55s ease-in-out infinite', animationDelay: '8s'}}>
             <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-indigo-400">
-              <path d="M8.5 13.5L11 16.5L14.5 12L19 18H5M21 19V5C21 3.9 20.1 3 19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 19.1 19 21 19Z"/>
-            </svg>
-          </div>
-          
-          {/* Floating Gallery Icons */}
-          <div className="absolute bottom-32 left-1/3 w-14 h-14 opacity-15 animate-bounce" style={{animationDelay: '2s', animationDuration: '4.5s'}}>
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-blue-400">
-              <path d="M22 16V4C22 2.9 21.1 2 20 2H8C6.9 2 6 2.9 6 4V16C6 17.1 6.9 18 8 18H20C21.1 18 22 17.1 22 16M11 12L13.03 14.71L16 11L20 16H8M2 6V20C2 21.1 2.9 22 4 22H18V20H4V6H2Z"/>
-            </svg>
-          </div>
-          
-          {/* Floating Video Icons */}
-          <div className="absolute top-1/4 right-1/4 w-8 h-8 opacity-30 animate-ping" style={{animationDelay: '0.5s'}}>
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-purple-500">
-              <path d="M17 10.5V7C17 6.45 16.55 6 16 6H4C3.45 6 3 6.45 3 7V17C3 17.55 3.45 18 4 18H16C16.55 18 17 17.55 17 17V13.5L21 17.5V6.5L17 10.5Z"/>
-            </svg>
-          </div>
-          
-          {/* Floating Photo Icons */}
-          <div className="absolute bottom-1/3 left-1/4 w-6 h-6 opacity-35 animate-ping" style={{animationDelay: '1.5s'}}>
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-emerald-500">
               <path d="M9 3L7.17 5H4C2.9 5 2 5.9 2 7V19C2 20.1 2.9 21 4 21H20C21.1 21 22 20.1 22 19V7C22 5.9 21.1 5 20 5H16.83L15 3H9M12 18C8.69 18 6 15.31 6 12S8.69 6 12 6S18 8.69 18 12S15.31 18 12 18M12 8C9.79 8 8 9.79 8 12S9.79 16 12 16S16 14.21 16 12S14.21 8 12 8Z"/>
             </svg>
           </div>
           
-          {/* Floating Album Icons */}
-          <div className="absolute top-2/3 right-1/3 w-10 h-10 opacity-25 animate-ping" style={{animationDelay: '2.5s'}}>
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-cyan-500">
-              <path d="M18 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V4C20 2.9 19.1 2 18 2M18 20H6V4H11V12L13.5 10.5L16 12V4H18V20Z"/>
+          {/* Floating Image Icons */}
+          <div className="absolute top-1/3 right-1/4 w-10 h-10 opacity-35" style={{animation: 'float-random-3 50s ease-in-out infinite', animationDelay: '15s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-emerald-400">
+              <path d="M8.5 13.5L11 16.5L14.5 12L19 18H5M21 19V5C21 3.9 20.1 3 19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 19.1 19 21 19Z"/>
+            </svg>
+          </div>
+          
+          {/* Floating Video Icons */}
+          <div className="absolute bottom-4 left-4 w-12 h-12 opacity-30" style={{animation: 'space-drift 60s ease-in-out infinite', animationDelay: '25s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-red-400">
+              <path d="M17 10.5V7C17 6.45 16.55 6 16 6H4C3.45 6 3 6.45 3 7V17C3 17.55 3.45 18 4 18H16C16.55 18 17 17.55 17 17V13.5L21 17.5V6.5L17 10.5Z"/>
+            </svg>
+          </div>
+          
+          {/* Floating Film Strip */}
+          <div className="absolute top-1/4 left-1/3 w-14 h-14 opacity-25" style={{animation: 'float-random-2 48s ease-in-out infinite', animationDelay: '10s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-orange-400">
+              <path d="M18 3V21H6V3H18M20 1H4C2.9 1 2 1.9 2 3V21C2 22.1 2.9 23 4 23H20C21.1 23 22 22.1 22 21V3C22 1.9 21.1 1 20 1M8 5H6V7H8V5M8 9H6V11H8V9M8 13H6V15H8V13M8 17H6V19H8V17M18 5H16V7H18V5M18 9H16V11H18V9M18 13H16V15H18V13M18 17H16V19H18V17Z"/>
+            </svg>
+          </div>
+          
+          {/* Floating Play Button */}
+          <div className="absolute top-1/2 right-1/3 w-10 h-10 opacity-40" style={{animation: 'space-drift 65s ease-in-out infinite', animationDelay: '20s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-pink-400">
+              <path d="M12 2C6.48 2 2 6.48 2 12S6.48 22 12 22S22 17.52 22 12S17.52 2 12 2M10 16.5V7.5L16 12L10 16.5Z"/>
+            </svg>
+          </div>
+          
+          {/* Floating Gallery Grid */}
+          <div className="absolute top-2/3 left-1/4 w-12 h-12 opacity-20" style={{animation: 'float-random-1 70s ease-in-out infinite', animationDelay: '30s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-cyan-400">
+              <path d="M22 16V4C22 2.9 21.1 2 20 2H8C6.9 2 6 2.9 6 4V16C6 17.1 6.9 18 8 18H20C21.1 18 22 17.1 22 16M11 12L13.03 14.71L16 11L20 16H8M2 6V20C2 21.1 2.9 22 4 22H18V20H4V6H2Z"/>
+            </svg>
+          </div>
+          
+          {/* Floating Photo Frame */}
+          <div className="absolute bottom-1/3 left-1/2 w-14 h-14 opacity-35" style={{animation: 'float-random-3 58s ease-in-out infinite', animationDelay: '18s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-violet-400">
+              <path d="M21 3H3C1.9 3 1 3.9 1 5V19C1 20.1 1.9 21 3 21H21C22.1 21 23 20.1 23 19V5C23 3.9 22.1 3 21 3M21 19H3V5H21V19M14.5 11L11 15.5L8.5 12.5L5 17H19L14.5 11Z"/>
+            </svg>
+          </div>
+          
+          {/* Floating Video Camera */}
+          <div className="absolute bottom-1/4 right-1/5 w-12 h-12 opacity-25" style={{animation: 'float-orbit 75s ease-in-out infinite', animationDelay: '12s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-blue-400">
+              <path d="M15 8V16H5V8H15M16 6H4C3.45 6 3 6.45 3 7V17C3 17.55 3.45 18 4 18H16C16.55 18 17 17.55 17 17V13.5L21 17.5V6.5L17 10.5V7C17 6.45 16.55 6 16 6Z"/>
+            </svg>
+          </div>
+          
+          {/* Floating Lens */}
+          <div className="absolute top-3/4 left-3/4 w-8 h-8 opacity-30" style={{animation: 'space-drift 52s ease-in-out infinite', animationDelay: '35s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-yellow-400">
+              <path d="M12 2C6.48 2 2 6.48 2 12S6.48 22 12 22S22 17.52 22 12S17.52 2 12 2M12 20C7.59 20 4 16.41 4 12S7.59 4 12 4S20 7.59 20 12S16.41 20 12 20M12 6C8.69 6 6 8.69 6 12S8.69 18 12 18S18 15.31 18 12S15.31 6 12 6M12 16C9.79 16 8 14.21 8 12S9.79 8 12 8S16 9.79 16 12S14.21 16 12 16Z"/>
+            </svg>
+          </div>
+          
+          {/* Additional scattered elements */}
+          <div className="absolute top-1/6 left-2/3 w-9 h-9 opacity-25" style={{animation: 'float-random-2 62s ease-in-out infinite', animationDelay: '5s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-teal-400">
+              <path d="M12 2C6.48 2 2 6.48 2 12S6.48 22 12 22S22 17.52 22 12S17.52 2 12 2M10 16.5V7.5L16 12L10 16.5Z"/>
+            </svg>
+          </div>
+          
+          <div className="absolute bottom-1/6 left-1/6 w-11 h-11 opacity-20" style={{animation: 'space-drift 68s ease-in-out infinite', animationDelay: '40s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-rose-400">
+              <path d="M8.5 13.5L11 16.5L14.5 12L19 18H5M21 19V5C21 3.9 20.1 3 19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 19.1 19 21 19Z"/>
+            </svg>
+          </div>
+          
+          <div className="absolute top-5/6 right-2/3 w-10 h-10 opacity-30" style={{animation: 'float-random-1 55s ease-in-out infinite', animationDelay: '22s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-amber-400">
+              <path d="M9 3L7.17 5H4C2.9 5 2 5.9 2 7V19C2 20.1 2.9 21 4 21H20C21.1 21 22 20.1 22 19V7C22 5.9 21.1 5 20 5H16.83L15 3H9M12 18C8.69 18 6 15.31 6 12S8.69 6 12 6S18 8.69 18 12S15.31 18 12 18M12 8C9.79 8 8 9.79 8 12S9.79 16 12 16S16 14.21 16 12S14.21 8 12 8Z"/>
             </svg>
           </div>
         </div>
@@ -316,26 +373,78 @@ export default function Home() {
       {/* Projects Overview Section */}
       <div className="py-24 relative overflow-hidden">
         {/* Animated Tech Background */}
-        <div className="absolute inset-0 overflow-hidden">
-          {/* Moving Cables */}
-          <svg className="absolute w-full h-full opacity-20" viewBox="0 0 1200 800">
-            <path d="M0,400 Q300,200 600,400 T1200,400" stroke="#a855f7" strokeWidth="2" fill="none" className="animate-pulse">
-              <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0,400 Q300,200 600,400 T1200,400;M0,400 Q300,600 600,400 T1200,400;M0,400 Q300,200 600,400 T1200,400" />
-            </path>
-            <path d="M0,300 Q400,100 800,300 T1200,300" stroke="#3b82f6" strokeWidth="1.5" fill="none" className="animate-pulse">
-              <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M0,300 Q400,100 800,300 T1200,300;M0,300 Q400,500 800,300 T1200,300;M0,300 Q400,100 800,300 T1200,300" />
-            </path>
-          </svg>
+        <div className="absolute inset-0 overflow-hidden z-0">
           
           {/* Floating Laptops */}
-          <div className="absolute top-20 left-20 w-16 h-12 bg-purple-600 rounded opacity-30 animate-bounce" style={{animationDelay: '0s', animationDuration: '3s'}}></div>
-          <div className="absolute top-40 right-32 w-12 h-8 bg-indigo-600 rounded opacity-25 animate-bounce" style={{animationDelay: '1s', animationDuration: '4s'}}></div>
-          <div className="absolute bottom-32 left-1/3 w-14 h-10 bg-blue-600 rounded opacity-20 animate-bounce" style={{animationDelay: '2s', animationDuration: '3.5s'}}></div>
+          <div className="absolute top-20 left-20 w-16 h-16 opacity-25" style={{animation: 'float-random-1 45s ease-in-out infinite', animationDelay: '0s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-purple-400">
+              <path d="M20 18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/>
+            </svg>
+          </div>
+          <div className="absolute top-40 right-32 w-14 h-14 opacity-30" style={{animation: 'space-drift 55s ease-in-out infinite', animationDelay: '8s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-indigo-400">
+              <path d="M20 18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/>
+            </svg>
+          </div>
           
-          {/* Floating Tools */}
-          <div className="absolute top-1/4 right-1/4 w-8 h-8 bg-purple-500 rounded-full opacity-40 animate-ping" style={{animationDelay: '0.5s'}}></div>
-          <div className="absolute bottom-1/3 left-1/4 w-6 h-6 bg-indigo-500 rounded-full opacity-35 animate-ping" style={{animationDelay: '1.5s'}}></div>
-          <div className="absolute top-2/3 right-1/3 w-10 h-10 bg-blue-500 rounded-full opacity-30 animate-ping" style={{animationDelay: '2.5s'}}></div>
+          {/* Moving Raspberry Pi */}
+          <div className="absolute top-16 right-1/4 w-12 h-12 opacity-35" style={{animation: 'float-random-3 50s ease-in-out infinite', animationDelay: '15s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-red-400">
+              <rect x="2" y="6" width="20" height="12" rx="2" fill="currentColor"/>
+              <rect x="4" y="8" width="16" height="8" rx="1" fill="#000" opacity="0.2"/>
+              <circle cx="6" cy="10" r="1" fill="#FFD700"/>
+              <circle cx="9" cy="10" r="1" fill="#FFD700"/>
+              <circle cx="6" cy="14" r="1" fill="#FFD700"/>
+              <circle cx="9" cy="14" r="1" fill="#FFD700"/>
+              <rect x="15" y="9" width="3" height="2" rx="0.5" fill="#C0C0C0"/>
+              <rect x="15" y="13" width="3" height="2" rx="0.5" fill="#C0C0C0"/>
+              <rect x="19" y="11" width="2" height="2" rx="1" fill="#000"/>
+            </svg>
+          </div>
+          {/* Cloud */}
+          <div className="absolute bottom-1/3 left-1/4 w-12 h-12 opacity-30" style={{animation: 'space-drift 60s ease-in-out infinite', animationDelay: '25s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-gray-300">
+              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/>
+            </svg>
+          </div>
+          
+          {/* Kotlin Logo */}
+          <div className="absolute top-1/4 right-1/4 w-12 h-12 opacity-30" style={{animation: 'float-random-2 48s ease-in-out infinite', animationDelay: '10s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-orange-400">
+              <path d="M24 24H0V0h24L12 12 24 24z"/>
+            </svg>
+          </div>
+          
+          {/* C Programming Logo */}
+          <div className="absolute top-1/2 right-1/5 w-14 h-14 opacity-25" style={{animation: 'space-drift 65s ease-in-out infinite', animationDelay: '20s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-blue-400">
+              <text x="12" y="16" textAnchor="middle" fontSize="18" fontFamily="Arial, sans-serif" fontWeight="bold" fill="currentColor">C</text>
+            </svg>
+          </div>
+          
+          {/* Building Icon */}
+          <div className="absolute top-2/3 left-1/5 w-16 h-16 opacity-20" style={{animation: 'float-random-1 70s ease-in-out infinite', animationDelay: '30s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-cyan-400">
+              <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/>
+            </svg>
+          </div>
+          
+          {/* Gear Icon */}
+          <div className="absolute top-3/4 left-1/2 w-12 h-12 opacity-35" style={{animation: 'float-random-3 58s ease-in-out infinite, spin 25s linear infinite', animationDelay: '18s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-purple-400">
+              <path d="M12 15.5A3.5 3.5 0 0 1 8.5 12A3.5 3.5 0 0 1 12 8.5a3.5 3.5 0 0 1 3.5 3.5a3.5 3.5 0 0 1-3.5 3.5m7.43-2.53c.04-.32.07-.64.07-.97c0-.33-.03-.66-.07-1l2.11-1.63c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.31-.61-.22l-2.49 1c-.52-.39-1.06-.73-1.69-.98l-.37-2.65A.506.506 0 0 0 14 2h-4c-.25 0-.46.18-.5.42l-.37 2.65c-.63.25-1.17.59-1.69.98l-2.49-1c-.22-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64L4.57 11c-.04.34-.07.67-.07 1c0 .33.03.65.07.97L2.46 14.6c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.31.61.22l2.49-1c.52.39 1.06.73 1.69.98l.37 2.65c.04.24.25.42.5.42h4c.25 0 .46-.18.5-.42l.37-2.65c.63-.25 1.17-.59 1.69-.98l2.49 1c.22.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.63Z"/>
+            </svg>
+          </div>
+          
+          {/* Rocket */}
+          <div className="absolute bottom-1/5 right-2/3 w-14 h-14 opacity-25" style={{animation: 'float-orbit 75s ease-in-out infinite', animationDelay: '12s'}}>
+            <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full text-red-400">
+              <path d="M12 2C12 2 8 6 8 12C8 14 9 16 12 16C15 16 16 14 16 12C16 6 12 2 12 2Z"/>
+              <ellipse cx="12" cy="8" rx="2" ry="3" fill="#FFD700"/>
+              <path d="M10 16L8 20L12 18L16 20L14 16" fill="#FF6B35"/>
+              <path d="M9 20L7 22L12 20L17 22L15 20" fill="#FF4500" opacity="0.8"/>
+            </svg>
+          </div>
         </div>
         
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
@@ -350,7 +459,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none relative z-10">
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
               <div className="flex flex-col bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-6 hover:bg-blue-500/20 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300">
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">

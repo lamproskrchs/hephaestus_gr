@@ -1,0 +1,90 @@
+[
+  {
+    "id": "fotis_rentzis",
+    "name": "Fotis Rentzis",
+    "head": "Team Director",
+    "photoUrl": "/boy.png",
+    "departmentImageUrl": "/ece.png",
+    "small_description": "Electrical & Computer Engineering student with strong experience in embedded systems, robotics, and digital technologies.",
+    "technical_skills": ["FPGA Programming", "Arduino", "Raspberry Pi", "Embedded Systems", "IoT", "C Programming", "Python", "Circuit Design", "Robotics", "Microprocessors"],
+    "social": {
+      "linkedin": "https://linkedin.com/in/fotis-rentzis",
+      "twitter": "https://twitter.com/fotis_r",
+      "github": "https://github.com/fotis-r",
+      "researchgate": "https://researchgate.net/profile/Fotis-Rentzis",
+      "instagram": "https://instagram.com/fotis_r",
+      "youtube": "https://youtube.com/@fotis-r"
+    },
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconSchool",
+        "description": "Undergraduate student in Electrical & Computer Engineering | University of Peloponnese"
+      },
+      {
+        "section_title": "Technical Skills & Knowledge",
+        "icon": "IconTools",
+        "description": "Integrated Circuit Design, Computer Architecture, FPGA Programming, Arduino, Raspberry Pi, Embedded Systems Design for Automation, Hardware Development for Embedded Platforms, Telecommunications Fundamentals, Microprocessor and Microelectronics Applications, C and Python Programming, Smart Cities (eGovernment, Open Data), Internet of Things (IoT), Renewable Energy Sources (RES), Public Speaking."
+      },
+      {
+        "section_title": "Seminars & Camps",
+        "icon": "IconSchool",
+        "description": "Career Guidance Program: 'Robotics and Digital Creation' (2015–2016) by the Network for Innovation and Creativity in the School of the Future, under KESYP Patras. Diploma recipient in 'Robotics and Digital Creation' (2017–2018). Participant at the WRO Teacher Camp 2019, OTE Academy, Athens."
+      },
+      {
+        "section_title": "Competitions & Projects",
+        "icon": "IconBriefcase",
+        "description": "World Robot Olympiad 2019 – International Final in Hungary (Certificate of Participation). Student Festival of Digital Creativity – Project: 'Harnessing Underwater Currents'. Exhibitor at the 1st Patras IQ Technology Transfer Exhibition. Member of the 7th Regional Development Conference (Achaia Clauss, September 2019)."
+      },
+      {
+        "section_title": "Speaking Engagements",
+        "icon": "IconBriefcase",
+        "description": "Key speaker at a certification seminar organized by the Hellenic Society for Neurosciences on Artificial Intelligence. Speaker at the Student Festival of Digital Creativity organized by the Ministry of Education (April 11, 2019)."
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (fluent)"
+      }
+    ]
+  },
+  {
+    "id": "lampros_karachristos",
+    "name": "Lampros Karachristos",
+    "head": "Head of informatics",
+    "photoUrl": "/boy.png",
+    "departmentImageUrl": "/ece.png",
+    "small_description": "Software Engineer, Full stack developer, junior-mid Developer",
+    "technical_skills": ["React", "Node.js", "JavaScript", "TypeScript", "Android Development", "Full-Stack Development", "Database Management", "API Development", "Web Applications", "Mobile Development"],
+    "social": {
+      "linkedin": "https://linkedin.com/in/lampros-karachristos",
+      "twitter": "https://twitter.com/lampros_k",
+      "github": "https://github.com/lampros-k",
+      "researchgate": "https://researchgate.net/profile/Lampros-Karachristos",
+      "instagram": "https://instagram.com/lampros_k",
+      "youtube": "https://youtube.com/@lampros-k"
+    },
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconSchool",
+        "description": "Student on Electrical & Computer engineering | University of peloponnese"
+      },
+      {
+        "section_title": "Current position: Full-stack web developer at Novidea 2024 - today",
+        "icon": "IconBriefcase",
+        "description": "Full Stack Web Developer specializing in creating POS management services that automate routine tasks, enabling technicians to focus on delivering top-quality results. With expertise in both front-end and back-end development, I design seamless, high-performance systems that enhance efficiency and ensure fast processing speeds. My solutions help businesses streamline operations, reduce human error, and improve overall productivity. By leveraging modern web technologies, I strive to provide scalable, user-friendly applications that support growth and innovation while meeting the ever-evolving needs of the industry."
+      },
+      {
+        "section_title": "Android Developer 2021-2022 (Ad-hoc outsourcer)",
+        "icon": "IconBriefcase",
+        "description": "Created Management android applications for companies to track issues on their products around Greece and create the most suitable communication environment for their workers. This boosted the companies reaction speed for their costumers"
+      },
+      {
+        "section_title": "Full-stack web developer 2022-2024 (Ad-hoc outsourcer)",
+        "icon": "IconBriefcase",
+        "description": "Created Management web applications for companies to track issues on their products and streamline communication workflows. Developed responsive interfaces and robust backend systems that improved operational efficiency and customer response times."
+      }
+    ]
+  }
+]

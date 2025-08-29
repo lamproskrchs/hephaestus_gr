@@ -148,17 +148,17 @@ export default function Projects() {
               </div>
 
               {/* Projects Grid */}
-              <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+              <div className="grid grid-cols-2 gap-2 sm:gap-4 md:grid-cols-2 lg:grid-cols-3 xl:gap-6">
                 {projects[subTeam.key as keyof typeof projects].map((project, index) => (
                   <div key={index} className="group relative overflow-hidden rounded-xl border border-white/20 dark:border-gray-800/20 bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl backdrop-saturate-150 shadow-lg shadow-black/5 hover:shadow-xl hover:shadow-black/10 transition-all duration-300 flex flex-col h-full">
-                    <div className="aspect-[4/3] bg-gray-100 dark:bg-gray-700 flex items-center justify-center transition-colors duration-300">
-                      <div className="text-gray-400 dark:text-gray-500 text-sm transition-colors duration-300">Project Preview</div>
+                    <div className="aspect-[3/2] sm:aspect-[4/3] bg-gray-100 dark:bg-gray-700 flex items-center justify-center transition-colors duration-300">
+                      <div className="text-gray-400 dark:text-gray-500 text-xs sm:text-sm transition-colors duration-300">Project Preview</div>
                     </div>
                     
-                    <div className="p-4 flex flex-col flex-grow">
-                      <div className="flex items-start justify-between mb-2">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-white transition-colors duration-300 leading-tight">{project.title}</h4>
-                        <span className={`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium ml-2 flex-shrink-0 ${
+                    <div className="p-2 sm:p-4 flex flex-col flex-grow">
+                      <div className="mb-2 sm:mb-3">
+                        <h4 className="text-xs sm:text-lg font-semibold text-gray-900 dark:text-white transition-colors duration-300 leading-tight mb-1">{project.title}</h4>
+                        <span className={`inline-flex items-center rounded-full px-2 sm:px-3 py-1 text-xs font-medium ${
                           project.status === 'Completed' 
                             ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400' 
                             : 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400'
@@ -167,20 +167,20 @@ export default function Projects() {
                         </span>
                       </div>
                       
-                      <p className="text-gray-600 dark:text-gray-300 mb-3 text-sm leading-relaxed transition-colors duration-300 flex-grow">{project.description}</p>
+                      <p className="text-gray-600 dark:text-gray-300 mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed transition-colors duration-300 flex-grow">{project.description}</p>
                       
-                      <div className="flex flex-wrap gap-1.5 mb-4">
-                        {project.technologies.slice(0, 3).map((tech, techIndex) => (
+                      <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-3 sm:mb-4">
+                        {project.technologies.slice(0, 2).map((tech, techIndex) => (
                           <span
                             key={techIndex}
-                            className="inline-flex items-center rounded-md bg-gray-50 dark:bg-gray-700 px-2 py-0.5 text-xs font-medium text-gray-600 dark:text-gray-300 ring-1 ring-inset ring-gray-500/10 dark:ring-gray-600/20 transition-colors duration-300"
+                            className="inline-flex items-center rounded-md bg-gray-50 dark:bg-gray-700 px-2 py-1 text-xs font-medium text-gray-600 dark:text-gray-300 ring-1 ring-inset ring-gray-500/10 dark:ring-gray-600/20 transition-colors duration-300"
                           >
                             {tech}
                           </span>
                         ))}
-                        {project.technologies.length > 3 && (
-                          <span className="inline-flex items-center rounded-md bg-gray-50 dark:bg-gray-700 px-2 py-0.5 text-xs font-medium text-gray-500 dark:text-gray-400 ring-1 ring-inset ring-gray-500/10 dark:ring-gray-600/20 transition-colors duration-300">
-                            +{project.technologies.length - 3}
+                        {project.technologies.length > 2 && (
+                          <span className="inline-flex items-center justify-center rounded-full bg-gray-50 dark:bg-gray-700 h-6 w-6 text-xs font-medium text-gray-500 dark:text-gray-400 ring-1 ring-inset ring-gray-500/10 dark:ring-gray-600/20 transition-colors duration-300">
+                            +{project.technologies.length - 2}
                           </span>
                         )}
                       </div>
@@ -189,12 +189,13 @@ export default function Projects() {
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 w-full justify-center rounded-lg bg-gray-900 dark:bg-white px-3 py-2 text-sm font-semibold text-white dark:text-gray-900 shadow-sm hover:bg-gray-800 dark:hover:bg-gray-100 transition-all duration-200 mt-auto"
+                        className="inline-flex items-center gap-1 sm:gap-2 w-full justify-center rounded-lg bg-gray-900 dark:bg-white px-2 sm:px-3 py-1.5 sm:py-2 text-xs sm:text-sm font-semibold text-white dark:text-gray-900 shadow-sm hover:bg-gray-800 dark:hover:bg-gray-100 transition-all duration-200 mt-auto"
                       >
-                        <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                        <svg className="h-2 w-2 sm:h-4 sm:w-4" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                         </svg>
-                        View on GitHub
+                        <span className="hidden sm:inline">View on GitHub</span>
+                        <span className="sm:hidden text-xs">GitHub</span>
                       </a>
                     </div>
                   </div>

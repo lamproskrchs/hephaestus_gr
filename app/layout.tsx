@@ -4,6 +4,7 @@ import "./globals.css";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import { ThemeProvider } from "./components/ThemeProvider";
+import RocketScrollIndicator from "./components/RocketScrollIndicator";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +35,7 @@ export default function RootLayout({
           <Navigation />
           {children}
           <Footer />
+          <RocketScrollIndicator />
         </ThemeProvider>
       </body>
     </html>
