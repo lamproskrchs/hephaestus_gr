@@ -89,9 +89,7 @@ export default function Home() {
             </div>
             
             <p className="mt-8 text-lg leading-8 text-gray-600 dark:text-gray-300 transition-colors duration-300">
-              University Robotics and Automation & Informatics Team dedicated to innovation, 
-              research, and pushing the boundaries of technology through cutting-edge projects 
-              and collaborative learning.
+              Hephaestus is a university research team in robotics, automation, rocketry, and informatics. We focus on hands-on projects, 3D modeling, and collaborative research while supporting the growth and education of our junior members.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
@@ -240,86 +238,114 @@ export default function Home() {
           {/* Slideshow Container */}
           <div className="relative overflow-hidden rounded-2xl bg-gray-900/50 backdrop-blur-sm border border-purple-500/20 shadow-2xl transition-colors duration-300">
             <div className="flex transition-transform duration-500 ease-in-out" id="slideshow">
-              {/* Slide 1 */}
+              {/* Slide 1 - Image 7 */}
               <div className="w-full flex-shrink-0">
-                <div className="aspect-video bg-gradient-to-br from-purple-100 to-indigo-100 dark:from-purple-900/30 dark:to-indigo-900/30 flex items-center justify-center transition-colors duration-300">
-                  <div className="text-center">
-                    <div className="w-24 h-24 mx-auto mb-4 bg-purple-200 dark:bg-purple-700 rounded-full flex items-center justify-center transition-colors duration-300">
-                      <span className="text-2xl font-bold text-purple-600 dark:text-purple-300">1</span>
+                <div className="aspect-video relative overflow-hidden">
+                  <img 
+                    src="/slideshow/7jpg.jpg" 
+                    alt="Hephaestus Team Project 7" 
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent">
+                    <div className="absolute bottom-4 left-4 text-white">
+                      <p className="text-lg font-semibold">Team</p>
                     </div>
-                    <p className="text-gray-600 dark:text-gray-300 font-medium">Project Image 1</p>
                   </div>
                 </div>
               </div>
               
-              {/* Slide 2 */}
+              {/* Slide 2 - Image 6 */}
               <div className="w-full flex-shrink-0">
-                <div className="aspect-video bg-gradient-to-br from-blue-100 to-cyan-100 dark:from-blue-900/30 dark:to-cyan-900/30 flex items-center justify-center transition-colors duration-300">
-                  <div className="text-center">
-                    <div className="w-24 h-24 mx-auto mb-4 bg-blue-200 dark:bg-blue-700 rounded-full flex items-center justify-center transition-colors duration-300">
-                      <span className="text-2xl font-bold text-blue-600 dark:text-blue-300">2</span>
+                <div className="aspect-video relative overflow-hidden">
+                  <img 
+                    src="/slideshow/6.jpg" 
+                    alt="Hephaestus Team Project 6" 
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent">
+                    <div className="absolute bottom-4 left-4 text-white">
+                      <p className="text-lg font-semibold">Team director</p>
                     </div>
-                    <p className="text-gray-600 dark:text-gray-300 font-medium">Project Image 2</p>
                   </div>
                 </div>
               </div>
               
-              {/* Slide 3 */}
+              {/* Slide 3 - Image 5 */}
               <div className="w-full flex-shrink-0">
-                <div className="aspect-video bg-gradient-to-br from-emerald-100 to-teal-100 dark:from-emerald-900/30 dark:to-teal-900/30 flex items-center justify-center transition-colors duration-300">
-                  <div className="text-center">
-                    <div className="w-24 h-24 mx-auto mb-4 bg-emerald-200 dark:bg-emerald-700 rounded-full flex items-center justify-center transition-colors duration-300">
-                      <span className="text-2xl font-bold text-emerald-600 dark:text-emerald-300">3</span>
+                <div className="aspect-video relative overflow-hidden">
+                  <img 
+                    src="/slideshow/5.jpg" 
+                    alt="Hephaestus Team Project 5" 
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent">
+                    <div className="absolute bottom-4 left-4 text-white">
+                      <p className="text-lg font-semibold">Arduino</p>
                     </div>
-                    <p className="text-gray-600 dark:text-gray-300 font-medium">Project Image 3</p>
                   </div>
                 </div>
               </div>
               
-              {/* Slide 4 */}
+              {/* Slide 4 - Image 4 */}
               <div className="w-full flex-shrink-0">
-                <div className="aspect-video bg-gradient-to-br from-amber-100 to-orange-100 dark:from-amber-900/30 dark:to-orange-900/30 flex items-center justify-center transition-colors duration-300">
-                  <div className="text-center">
-                    <div className="w-24 h-24 mx-auto mb-4 bg-amber-200 dark:bg-amber-700 rounded-full flex items-center justify-center transition-colors duration-300">
-                      <span className="text-2xl font-bold text-amber-600 dark:text-amber-300">4</span>
+                <div className="aspect-video relative overflow-hidden">
+                  <img 
+                    src="/slideshow/4.jpg" 
+                    alt="Hephaestus Team Project 4" 
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent">
+                    <div className="absolute bottom-4 left-4 text-white">
+                      <p className="text-lg font-semibold">Rocketry</p>
                     </div>
-                    <p className="text-gray-600 dark:text-gray-300 font-medium">Project Image 4</p>
                   </div>
                 </div>
               </div>
               
-              {/* Slide 5 */}
+              {/* Slide 5 - Image 3 */}
               <div className="w-full flex-shrink-0">
-                <div className="aspect-video bg-gradient-to-br from-rose-100 to-pink-100 dark:from-rose-900/30 dark:to-pink-900/30 flex items-center justify-center transition-colors duration-300">
-                  <div className="text-center">
-                    <div className="w-24 h-24 mx-auto mb-4 bg-rose-200 dark:bg-rose-700 rounded-full flex items-center justify-center transition-colors duration-300">
-                      <span className="text-2xl font-bold text-rose-600 dark:text-rose-300">5</span>
+                <div className="aspect-video relative overflow-hidden">
+                  <img 
+                    src="/slideshow/3.jpg" 
+                    alt="Hephaestus Team Project 3" 
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent">
+                    <div className="absolute bottom-4 left-4 text-white">
+                      <p className="text-lg font-semibold">Hephaestus style</p>
                     </div>
-                    <p className="text-gray-600 dark:text-gray-300 font-medium">Project Image 5</p>
                   </div>
                 </div>
               </div>
               
-              {/* Slide 6 */}
+              {/* Slide 6 - Image 2 */}
               <div className="w-full flex-shrink-0">
-                <div className="aspect-video bg-gradient-to-br from-violet-100 to-purple-100 dark:from-violet-900/30 dark:to-purple-900/30 flex items-center justify-center transition-colors duration-300">
-                  <div className="text-center">
-                    <div className="w-24 h-24 mx-auto mb-4 bg-violet-200 dark:bg-violet-700 rounded-full flex items-center justify-center transition-colors duration-300">
-                      <span className="text-2xl font-bold text-violet-600 dark:text-violet-300">6</span>
+                <div className="aspect-video relative overflow-hidden">
+                  <img 
+                    src="/slideshow/2.jpg" 
+                    alt="Hephaestus Team Project 2" 
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent">
+                    <div className="absolute bottom-4 left-4 text-white">
+                      <p className="text-lg font-semibold">Industrial Automation</p>
                     </div>
-                    <p className="text-gray-600 dark:text-gray-300 font-medium">Project Image 6</p>
                   </div>
                 </div>
               </div>
               
-              {/* Slide 7 */}
+              {/* Slide 7 - Image 1 */}
               <div className="w-full flex-shrink-0">
-                <div className="aspect-video bg-gradient-to-br from-indigo-100 to-blue-100 dark:from-indigo-900/30 dark:to-blue-900/30 flex items-center justify-center transition-colors duration-300">
-                  <div className="text-center">
-                    <div className="w-24 h-24 mx-auto mb-4 bg-indigo-200 dark:bg-indigo-700 rounded-full flex items-center justify-center transition-colors duration-300">
-                      <span className="text-2xl font-bold text-indigo-600 dark:text-indigo-300">7</span>
+                <div className="aspect-video relative overflow-hidden">
+                  <img 
+                    src="/slideshow/1.jpg" 
+                    alt="Hephaestus Team Project 1" 
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent">
+                    <div className="absolute bottom-4 left-4 text-white">
+                      <p className="text-lg font-semibold">Team</p>
                     </div>
-                    <p className="text-gray-600 dark:text-gray-300 font-medium">Project Image 7</p>
                   </div>
                 </div>
               </div>
@@ -454,8 +480,8 @@ export default function Home() {
               Cutting-Edge Innovation
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-200 transition-colors duration-300">
-              Explore our diverse portfolio of robotics, automation, and informatics projects 
-              that are shaping the future of technology.
+              Explore our diverse portfolio of projects 
+              focusing on different aspects of the technological sector.
             </p>
           </div>
           
@@ -470,12 +496,13 @@ export default function Home() {
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7">
                   <p className="flex-auto text-gray-200">
-                    AI-powered campus management system with IoT integration for optimized resource allocation and enhanced student experience.
+                    Project Athena aims to enhance the day to day life of UoP students inside their campus by smart-enabling the space where all their academic activities take place
                   </p>
                   <p className="mt-6">
-                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">AI/ML</span>
-                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">IoT</span>
-                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20">Cloud</span>
+                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">Software engineering</span>
+                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">3D modeling</span>
+                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20">IoT</span>
+                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20">Structural engineering</span>
                   </p>
                 </dd>
               </div>
@@ -489,12 +516,13 @@ export default function Home() {
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7">
                   <p className="flex-auto text-gray-200">
-                    Advanced weather monitoring and prediction system using machine learning algorithms and distributed sensor networks.
+                    With project Zephyr, team Hephaestus aims to create a low-cost, high performance weather station with IOT capabilities that can easily be integrated into its other IOT utilizing projects.
                   </p>
                   <p className="mt-6">
                     <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">Sensors</span>
-                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">ML</span>
-                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20">Data</span>
+                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">Electronics</span>
+                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20">IoT</span>
+                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20">Data collection</span>
                   </p>
                 </dd>
               </div>
@@ -504,16 +532,16 @@ export default function Home() {
                   <div className="h-10 w-10 flex items-center justify-center rounded-lg bg-orange-600 hover:rotate-12 hover:scale-110 transition-all duration-300">
                     <span className="text-white font-bold">H</span>
                   </div>
-                  Hermes - Communication Hub
+                  Hermes - Advanced rocketry
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7">
                   <p className="flex-auto text-gray-200">
-                    Secure, decentralized communication platform for emergency response and disaster management coordination.
+                    Team Hephaestus' aerospace-focused project aims to create advancements in the rocketry sector, from the design of aerodynamically optimal fuselage to robust avionics. 
                   </p>
                   <p className="mt-6">
-                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">Security</span>
-                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">Network</span>
-                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20">Mobile</span>
+                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">Aerospace</span>
+                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">Rocketry</span>
+                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20">3D modeling</span>
                   </p>
                 </dd>
               </div>
@@ -523,16 +551,16 @@ export default function Home() {
                   <div className="h-10 w-10 flex items-center justify-center rounded-lg bg-teal-600 hover:rotate-12 hover:scale-110 transition-all duration-300">
                     <span className="text-white font-bold">H</span>
                   </div>
-                  Heron - Autonomous Drones
+                  Heron - Indurstial automation
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7">
                   <p className="flex-auto text-gray-200">
-                    Swarm robotics project featuring autonomous drones for search and rescue operations with real-time coordination.
+                    For everything industrial automation, where control systems with extreme efficiency and precision are need, project Heron aims to create foolproof solutions..
                   </p>
                   <p className="mt-6">
-                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">Robotics</span>
-                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">AI</span>
-                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20">Swarm</span>
+                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">Industrial</span>
+                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20 mr-2">Automation</span>
+                    <span className="inline-flex items-center rounded-md bg-white/20 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-white/20">PLC</span>
                   </p>
                 </dd>
               </div>
@@ -576,23 +604,22 @@ export default function Home() {
               Passionate Innovators
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-200 transition-colors duration-300">
-              Meet the brilliant minds behind our groundbreaking projects. Our diverse team 
-              brings together expertise from multiple disciplines.
+              Meet the brilliant minds bringing our projects to life. Our team brings together expertise from multiple disciplines.
             </p>
           </div>
           
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
               <div className="flex flex-col items-center text-center hover:scale-110 hover:text-emerald-300 transition-all duration-300 cursor-default">
-                <dt className="text-4xl font-bold text-white hover:animate-pulse">25+</dt>
+                <dt className="text-4xl font-bold text-white hover:animate-pulse">40+</dt>
                 <dd className="mt-2 text-base leading-7 text-gray-200">Active Members</dd>
               </div>
               <div className="flex flex-col items-center text-center hover:scale-110 hover:text-emerald-300 transition-all duration-300 cursor-default">
-                <dt className="text-4xl font-bold text-white hover:animate-pulse">12</dt>
+                <dt className="text-4xl font-bold text-white hover:animate-pulse">10+</dt>
                 <dd className="mt-2 text-base leading-7 text-gray-200">Ongoing Projects</dd>
               </div>
               <div className="flex flex-col items-center text-center hover:scale-110 hover:text-emerald-300 transition-all duration-300 cursor-default">
-                <dt className="text-4xl font-bold text-white hover:animate-pulse">5</dt>
+                <dt className="text-4xl font-bold text-white hover:animate-pulse">2</dt>
                 <dd className="mt-2 text-base leading-7 text-gray-200">Research Areas</dd>
               </div>
             </dl>

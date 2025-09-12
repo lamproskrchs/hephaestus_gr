@@ -2,41 +2,70 @@ export default function Projects() {
   const projects = {
     athena: [
       {
-        title: "Smart Campus Infrastructure",
-        description: "IoT-enabled campus monitoring system integrating civil engineering sensors with automated data collection.",
-        technologies: ["IoT", "Python", "LoRaWAN", "PostgreSQL"],
-        status: "In Progress",
-        github: "https://github.com/hephaestus-gr/smart-campus"
-      },
-      {
-        title: "Building Automation Framework",
-        description: "Comprehensive building management system for energy optimization and environmental control.",
-        technologies: ["Node.js", "MQTT", "React", "InfluxDB"],
-        status: "In Progress",
-        github: "https://github.com/hephaestus-gr/building-automation"
-      },
-      {
-        title: "Structural Health Monitoring",
-        description: "Real-time monitoring system for structural integrity using advanced sensor networks.",
-        technologies: ["C++", "Arduino", "Machine Learning", "MongoDB"],
+        title: "raspberrypi_people_detection",
+        description: "Real-time people detection on Raspberry Pi using OpenCV and MQTT. 🚀 ",
+        technologies: ["Rust", "RaspberryPi", "IoT", "library"],
         status: "Completed",
-        github: "https://github.com/hephaestus-gr/structural-monitoring"
-      }
+        github: "https://github.com/hyphestusrobotics/raspberrypi_people_detection"
+      },
+      {
+        title: "UniVerse3D",
+        description: "A Demo 3D visualization of the main amphitheater of out campus",
+        technologies: ["Demo", "C#", "Unity", "Game"],
+        status: "Completed",
+        github: "https://github.com/hyphestusrobotics/UniVerse3D"
+      },
+      {
+        title: "engineering_campus_uop_model",
+        description: "Demo of our main campus building represented in AutoCAD",
+        technologies: ["AutoCAD", "3D", "civil"],
+        status: "In Progress",
+        github: "https://github.com/hyphestusrobotics/engineering_campus_uop_model"
+      },
+      {
+        title: "campus_architectural_model",
+        description: "Real life architectural representation of our main campus building",
+        technologies: ["3D"],
+        status: "In Progress",
+        github: "https://github.com/hyphestusrobotics/campus_architectural_model"
+      },
+      {
+        title: "smart_campus_iot",
+        description: "IoT hardware research for smart rooms and smart campus",
+        technologies: ["IoT", "Arduino", "RaspberryPi"],
+        status: "In Progress",
+        github: "https://github.com/hyphestusrobotics/smart_campus_iot"
+      },
+      {
+        title: "smart_campus_service",
+        description: "Back-end for our smart campus IoT for room automatation",
+        technologies: ["Quarkus", "Kotlin", "Reactive"],
+        status: "In Progress",
+        github: "https://github.com/hyphestusrobotics/smart_campus_service"
+      },
+
     ],
-    zephir: [
+    zephyr: [
       {
-        title: "Autonomous Weather Station Network",
-        description: "Distributed weather monitoring system with real-time data collection and analysis.",
-        technologies: ["Python", "Raspberry Pi", "LoRa", "OpenWeatherAPI"],
+        title: "weather_station_sensors",
+        description: "Sensor code for the sensor of our weather station",
+        technologies: ["C", "Raspberry Pi", "Arduino", "Python"],
         status: "In Progress",
-        github: "https://github.com/hephaestus-gr/weather-station-network"
+        github: "https://github.com/hyphestusrobotics/weather_station_sensors"
       },
       {
-        title: "Climate Data Analytics Platform",
-        description: "Advanced analytics platform for weather pattern prediction and climate monitoring.",
-        technologies: ["Python", "TensorFlow", "FastAPI", "TimescaleDB"],
+        title: "weatherstation_service",
+        description: "Back-end code for our weather station",
+        technologies: ["SpringBoot", "Kotlin", "imperative"],
         status: "Completed",
-        github: "https://github.com/hephaestus-gr/climate-analytics"
+        github: "https://github.com/hyphestusrobotics/weatherstation_service"
+      },
+      {
+        title: "station_hardware_assembly",
+        description: "Hardware reasearch and assembly quide for our weather station",
+        technologies: ["Arduino", "Sensors", "Hardware"],
+        status: "Completed",
+        github: "https://github.com/hyphestusrobotics/station_hardware_assembly"
       }
     ],
     hermes: [
@@ -47,35 +76,21 @@ export default function Projects() {
         status: "In Progress",
         github: "https://github.com/hephaestus-gr/rocket-flight-computer"
       },
-      {
-        title: "Rocket Propulsion Testing Rig",
-        description: "Automated testing system for solid rocket motor performance analysis and data collection.",
-        technologies: ["LabVIEW", "DAQ", "Python", "MATLAB"],
-        status: "In Progress",
-        github: "https://github.com/hephaestus-gr/propulsion-testing"
-      },
-      {
-        title: "Ground Station Communication",
-        description: "Radio communication system for real-time telemetry and command transmission to rockets.",
-        technologies: ["RF Design", "Arduino", "LoRa", "Qt"],
-        status: "Completed",
-        github: "https://github.com/hephaestus-gr/ground-station"
-      },
-      {
-        title: "Rocket Trajectory Simulation",
-        description: "Comprehensive simulation software for rocket flight path prediction and optimization.",
-        technologies: ["Python", "NumPy", "Matplotlib", "OpenRocket"],
-        status: "In Progress",
-        github: "https://github.com/hephaestus-gr/trajectory-simulation"
-      }
     ],
     heron: [
       {
-        title: "Industrial PLC Control System",
-        description: "Advanced PLC programming framework for industrial automation and process control applications.",
-        technologies: ["Ladder Logic", "SCADA", "HMI", "Modbus"],
+        title: "water_control_hardware_assembly",
+        description: "Mathematical and electrical research for our industrial water control system",
+        technologies: ["PLC", "Automation", "Electrical"],
         status: "In Progress",
-        github: "https://github.com/hephaestus-gr/plc-control-system"
+        github: "https://github.com/hyphestusrobotics/water_control_hardware_assembly"
+      },
+      {
+        title: "water_control_plc_code",
+        description: "PLC code for our industrial water automation system",
+        technologies: ["PLC", "Software"],
+        status: "In Progress",
+        github: "https://github.com/hyphestusrobotics/water_control_plc_code"
       }
     ]
   };
@@ -88,8 +103,8 @@ export default function Projects() {
       logo: null // Placeholder for team logo
     },
     {
-      name: "Zephir",
-      key: "zephir",
+      name: "Zephyr",
+      key: "zephyr",
       description: "Advanced weather monitoring systems and meteorological data analysis for environmental intelligence.",
       logo: null // Placeholder for team logo
     },

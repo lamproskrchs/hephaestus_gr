@@ -6,7 +6,18 @@
     "photoUrl": "/boy.png",
     "departmentImageUrl": "/ece.png",
     "small_description": "Electrical & Computer Engineering student with strong experience in embedded systems, robotics, and digital technologies.",
-    "technical_skills": ["FPGA Programming", "Arduino", "Raspberry Pi", "Embedded Systems", "IoT", "C Programming", "Python", "Circuit Design", "Robotics", "Microprocessors"],
+    "technical_skills": [
+      "FPGA Programming",
+      "Arduino",
+      "Raspberry Pi",
+      "Embedded Systems",
+      "IoT",
+      "C Programming",
+      "Python",
+      "Circuit Design",
+      "Robotics",
+      "Microprocessors"
+    ],
     "social": {
       "linkedin": "https://linkedin.com/in/fotis-rentzis",
       "twitter": "https://twitter.com/fotis_r",
@@ -55,7 +66,18 @@
     "photoUrl": "/boy.png",
     "departmentImageUrl": "/ece.png",
     "small_description": "Software Engineer, Full stack developer, junior-mid Developer",
-    "technical_skills": ["React", "Node.js", "JavaScript", "TypeScript", "Android Development", "Full-Stack Development", "Database Management", "API Development", "Web Applications", "Mobile Development"],
+    "technical_skills": [
+      "React",
+      "Node.js",
+      "JavaScript",
+      "TypeScript",
+      "Android Development",
+      "Full-Stack Development",
+      "Database Management",
+      "API Development",
+      "Web Applications",
+      "Mobile Development"
+    ],
     "social": {
       "linkedin": "https://linkedin.com/in/lampros-karachristos",
       "twitter": "https://twitter.com/lampros_k",
@@ -86,5 +108,487 @@
         "description": "Created Management web applications for companies to track issues on their products and streamline communication workflows. Developed responsive interfaces and robust backend systems that improved operational efficiency and customer response times."
       }
     ]
-  }
+  },
+
+  {
+    "id": "maria_pitta",
+    "name": "Maria Pitta",
+    "member": "Project Athena",
+    "photoUrl": "/girl.png",
+    "departmentImageUrl": "/civil.png",
+    "small_description": "Civil Engineering Student, Autocad Designer, Architectural design",
+    "technical_skills": ["Autocad Design", "3D Model design", "Smart Campus"],
+    "social": {},
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconTools",
+        "description": "Civil Engineering Student | University of Peloponnese"
+      },
+      {
+        "section_title": "Interests",
+        "icon": "IconTools",
+        "description": "Autocad Design, Smart Campus, 3D Model design"
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (fluent)"
+      }
+    ]
+  },
+
+  {
+    "id": "andreas_zikos",
+    "name": "Andreas Zikos",
+    "head": "Informatics Team",
+    "photoUrl": "/boy.png",
+    "departmentImageUrl": "/ece.png",
+    "small_description": "ECE Student, Game Developer",
+    "technical_skills": ["2D Game Development", "3D Game Development", "Django", "Web Applications"],
+    "social": {},
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconSchool",
+        "description": "Undergraduate student in Electrical and Computer Engineering, University of the Peloponnese"
+      },
+      {
+        "section_title": "Interests",
+        "icon": "IconTools",
+        "description": "2D and 3D game development, Django-based web applications"
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (fluent), German (good), French (good)"
+      }
+    ]
+  },
+
+  {
+    "id": "evripidis_mavrommatis",
+    "name": "Evripidis Mavrommatis",
+    "head": "Project Hermes",
+    "photoUrl": "/boy.png",
+    "departmentImageUrl": "/ece.png",
+    "small_description": "Electrical and Computer Engineering Student, Quick learner, Hands-on experimentation",
+    "technical_skills": ["Arduino", "DIY Electronics", "Hardware", "Software"],
+    "social": {},
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconTools",
+        "description": "Electrical and Computer Engineering Student | University of Peloponnese"
+      },
+      {
+        "section_title": "Interests",
+        "icon": "IconTools",
+        "description": "Arduino design, DIY electronics hardware and software, passionate piano player"
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (fluent)"
+      }
+    ]
+  },
+
+  {
+    "id": "george_mountzouroulias",
+    "name": "George Mountzouroulias",
+    "head": "Project Hermes",
+    "photoUrl": "/boy.png",
+    "departmentImageUrl": "/mech.png",
+    "small_description": "Mechanical Engineering Student, Member of engine department for Project Hermes",
+    "technical_skills": ["3Dcad design", "Autodesk Fusion", "OpenRocket", "Solid-propellant rocket engines"],
+    "social": {},
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconSchool",
+        "description": "Mechanical Engineering Student | University of Peloponnese"
+      },
+      {
+        "section_title": "Project Hermes",
+        "icon": "IconBriefcase",
+        "description": "Member of Engine department, Knowledge about nozzles, solid propellants and solid-propellant rocket engines"
+      },
+      {
+        "section_title": "Skills",
+        "icon": "IconTools",
+        "description": "3Dcad design (Autodesk Fusion), OpenRocket simulations"
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (C2 Level)"
+      }
+    ]
+  },
+
+  {
+    "id": "panagiota vavouli",
+    "name": "Panagiota Vavouli",
+    "head": "Project Athena",
+    "photoUrl": "/girl.png",
+    "departmentImageUrl": "/civil.png",
+    "small_description": "Civil Engineering Student, Autocad Designer,3D Structural modeling projects Designer, Project analysist",
+    "technical_skills": ["Autocad Design", "3D Modeling", "Environmental Building Design", "Sustainable Construction", "Python", "Data Analysis"],
+    "social": {},
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconTools",
+        "description": "Civil Engineering Student | University of Peloponnese"
+      },
+      {
+        "section_title": "Professional Experience",
+        "icon": "IconBriefcase",
+        "description": "Part-time job Delivering quality customer service in a fast-paced environment."
+      },
+      {
+        "section_title": "Seminars",
+        "icon": "IconSchool",
+        "description": "Attended Data Analysis with Python Seminar"
+      },
+      {
+        "section_title": "Interests",
+        "icon": "IconTools",
+        "description": "Autocad Design, Smart Campus, 3D Modeling, Eniviromental Building Design, Sustainable construction practices, Supporting tasks across various technical fields and construction managment."
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (fluent)"
+      }
+    ]
+  },
+
+  {
+    "id": "theodora_papanteliou",
+    "name": "Theodora Papanteliou",
+    "head": "Project Athena",
+    "photoUrl": "/girl.png",
+    "departmentImageUrl": "/civil.png",
+    "small_description": "Civil Engineering Student, Autocad Designer, Seminar Participant",
+    "technical_skills": ["Autocad Design", "Architectural Sketching", "Smart Campus", "Creative Engineering"],
+    "social": {},
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconTools",
+        "description": "Civil Engineering Student | University of Peloponnese"
+      },
+      {
+        "section_title": "College Experience",
+        "icon": "IconBriefcase",
+        "description": "College student."
+      },
+      {
+        "section_title": "Seminars",
+        "icon": "IconSchool",
+        "description": "Participated in the 2nd International Student Conference in Florence (March 16–20, 2023), organized by ELEMASYN, where we presented a project titled 'Zero Food Waste'. The conference aimed to familiarize students with the institution of the European Capital of Culture and raise awareness on the climate crisis. Also took part in the 2024 International Masterclasses event, held on March 20, 2024, at the National and Kapodistrian University of Athens, organized by the International Particle Physics Outreach Group (IPPOG)."
+      },
+      {
+        "section_title": "Interests",
+        "icon": "IconTools",
+        "description": "Autocad Design, Smart Campus, Architectural Sketching, Creative vision, Creative Engineering, Supporting tasks across various technical fields"
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (fluent)"
+      }
+    ]
+  },
+  {
+    "id": "christos_dimakopoulos",
+    "name": "Christos Dimakopoulos",
+    "head": "Project Hermes",
+    "photoUrl": "/photo.png",
+    "departmentImageUrl": "/coms.png",
+    "small_description": "ECE Student",
+    "technical_skills": ["Arduino", "LoRa", "ESP32", "IoT Systems", "Embedded C", "PCB Design", "Wireless Communication"],
+    "social": {},
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconSchool",
+        "description": "ECE Student"
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (fluent), German (intermediate)"
+      },
+      {
+        "section_title": "Technical Skills",
+        "icon": "IconTools",
+        "description": "Arduino, LoRa, ESP32, IoT Systems, Embedded C, PCB Design"
+      },
+      {
+        "section_title": "Telecommunications Systems",
+        "icon": "IconBriefcase",
+        "description": "Extensive knowledge of wireless communication technologies, including LoRaWAN, RF modules, and signal processing techniques."
+      },
+      {
+        "section_title": "Projects",
+        "icon": "IconTools",
+        "description": "Developed LoRa-based remote sensor networks. Built Arduino and ESP32-powered telemetry systems with cloud integration."
+      },
+      {
+        "section_title": "Workshops & Seminars",
+        "icon": "IconSchool",
+        "description": "Attended technical workshops on Internet of Things (IoT), microcontroller programming, and embedded systems design."
+      },
+      {
+        "section_title": "Interests",
+        "icon": "IconUser",
+        "description": "IoT Development, Amateur Radio, Automation, Open Source Hardware"
+      }
+    ]
+  },
+  {
+    "id": "panagiotis_adam",
+    "name": "Panagiotis Adam",
+    "head": "Project Hermes",
+    "photoUrl": "/boy.png",
+    "departmentImageUrl": "/mech.png",
+    "small_description": "Mechanical Engineering Student, Rocketry Team Member, AutoCAD & SolidWorks Designer, SimScale Beginner",
+    "technical_skills": ["AutoCAD", "SolidWorks", "SimScale", "Structural Design", "Circuit Design"],
+    "social": {},
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconTools",
+        "description": "Mechanical Engineering Student | University of Peloponnese"
+      },
+      {
+        "section_title": "Professional Experience",
+        "icon": "IconBriefcase",
+        "description": "Rocket Development Project (EUROC Team) – Structural design & simulation contributor. Autonomous Cooling System (Summer 2025) – Circuit design & component integration without microcontroller (personal project). 3D CAD Models (SolidWorks/AutoCAD) – Custom mechanical parts and assemblies for educational purposes."
+      },
+      {
+        "section_title": "Skills",
+        "icon": "IconTools",
+        "description": "AutoCAD, SolidWorks, SimScale, Structural Design, Circuit Design"
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (fluent)"
+      }
+    ]
+  },
+  {
+    "id": "charalampos_fotou",
+    "name": "Charalampos Fotou",
+    "head": "Informatics Team",
+    "photoUrl": "/boy.png",
+    "departmentImageUrl": "/service.png",
+    "small_description": "Experienced Catering Server, Strong Interpersonal Skills, Fast-Paced Environment",
+    "technical_skills": ["Customer Service", "Interpersonal Communication", "Team Collaboration"],
+    "social": {},
+    "resume": [
+      {
+        "section_title": "Personal Information",
+        "icon": "IconUser",
+        "description": "Stratokleous 27, Patra, 26223 | Date of Birth: 02/11/2005"
+      },
+      {
+        "section_title": "Education",
+        "icon": "IconSchool",
+        "description": "High School Diploma (18.4) | September 2020 - June 2023"
+      },
+      {
+        "section_title": "Work Experience",
+        "icon": "IconBriefcase",
+        "description": "Server, Asteria Glyfadas, Glyfada, Athens | October 2024 - Present: Developed strong interpersonal skills while collaborating with customers and staff in a fast-paced environment"
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconLanguage",
+        "description": "Greek (native), English, German"
+      }
+    ]
+  },
+
+  {
+    "id": "konstantinos_chasouras",
+    "name": "Konstantinos Chasouras",
+    "head": "Project Hermes",
+    "photoUrl": "/boy.png",
+    "departmentImageUrl": "/ece.png",
+    "technical_skills": ["Circuit Design", "Arduino", "ESP", "Sensors", "Embedded Systems", "PID Control", "AutoCAD"],
+    "social": {},
+    "small_description": "Embedded Systems & Control Engineer | Microcontrollers | Sensors | AutoCAD",
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconSchool",
+        "description": "Student on Electrical & Computer engineering | University of peloponnese"
+      },
+      {
+        "section_title": "Technical Skills & Knowledge",
+        "icon": "IconBriefcase",
+        "description": "Circuit Design, Arduino ,Esp ,Sensors ,Embedded Systems ,PID control ,AutoCAD"
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (fluent)"
+      }
+    ]
+  },
+  {
+    "id": "sofia_christodoulaki",
+    "name": "Sofia Christodoulaki",
+    "head": "Project Hermes",
+    "photoUrl": "/girl.png",
+    "technical_skills": ["Mechanical Engineering"],
+    "social": {},
+    "departmentImageUrl": "/mech.png",
+    "small_description": "Mechanical Engineering Student",
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconTools",
+        "description": "Mechanical engineering student at the University of Peloponnese"
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (ECPE)"
+      }
+    ]
+  },
+  {
+    "id": "stefanos_sikalos",
+    "name": "Stefanos Sikalos",
+    "head": "Hermes Project",
+    "photoUrl": "/boy.png",
+    "departmentImageUrl": "/mech.png",
+    "small_description": "Mechanical Engineering Student, 3D Printing Specialist",
+    "technical_skills": ["3D Design", "Fusion 360", "SolidWorks", "3D Printing", "Basic Python"],
+    "social": {},
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconSchool",
+        "description": "Mechanical Engineering Student | University of Peloponnese"
+      },
+      {
+        "section_title": "Project Hermes – Rocketry",
+        "icon": "IconBriefcase",
+        "description": "Member of the Hephaestus Team Recovery subgroup, focusing on the parachute system for rocket retrieval and safe landing."
+      },
+      {
+        "section_title": "SimUoPLabs – Student Research Group",
+        "icon": "IconBriefcase",
+        "description": "Member of SimUoPLabs, a research team at the University of Peloponnese specializing in static and fluid dynamics analyses and innovative engineering solutions."
+      },
+      {
+        "section_title": "Autonomous Irrigation System",
+        "icon": "IconTools",
+        "description": "Developed a fully autonomous irrigation system for a remote olive grove, powered by solar energy and controlled remotely for efficient water management."
+      },
+      {
+        "section_title": "Small-Scale Hydroponics Farm",
+        "icon": "IconTools",
+        "description": "Currently developing a compact hydroponics farm setup, focused on low-cost and modular design for student research and small-scale food production."
+      },
+      {
+        "section_title": "Ultra Low-Budget SLS 3D Printer",
+        "icon": "IconTools",
+        "description": "Designing and prototyping an ultra low-budget Selective Laser Sintering (SLS) 3D printer aimed at affordable high-strength parts production for student and hobbyist use."
+      },
+      {
+        "section_title": "Skills",
+        "icon": "IconTools",
+        "description": "3D Design (Fusion 360, SolidWorks), 3D Printing (1000+ hours), Basic Python"
+      },
+      {
+        "section_title": "Achievements",
+        "icon": "IconTools",
+        "description": "Finalist in WRO-ELAS Robotics Competition"
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (Native), English (Advanced)"
+      }
+    ]
+  },
+
+  {
+    "id": "epameinondas_tagkalis",
+    "name": "Epameinondas Tagkalis",
+    "head": "Member of Project Athena (Smart Campus)",
+    "photoUrl": "/boy.png",
+    "departmentImageUrl": "/ece.png",
+    "small_description": "Electrical & Computer Engineering Student, Exploring IoT, Smart Technologies & Renewable Energy (e.g., Photovoltaics)",
+    "technical_skills": ["Python", "C", "JavaScript", "Photovoltaic Systems", "IoT", "Energy Efficiency"],
+    "social": {},
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconSchool",
+        "description": "Electrical & Computer Engineering Student | University of Peloponnese"
+      },
+      {
+        "section_title": "Professional Experience",
+        "icon": "IconBriefcase",
+        "description": "Electrical Engineer Assistant: Installation and maintenance of photovoltaic systems"
+      },
+      {
+        "section_title": "Technical Skills",
+        "icon": "IconTools",
+        "description": "Programming: Python, C, JavaScript | Photovoltaic systems fundamentals"
+      },
+      {
+        "section_title": "Seminars & Training",
+        "icon": "IconSchool",
+        "description": "Summer School 2025: Artificial Intelligence (AI), Cybersecurity, and IoT Applications"
+      },
+      {
+        "section_title": "Projects",
+        "icon": "IconBriefcase",
+        "description": "Smart Campus: Developing IoT solutions for energy efficiency monitoring"
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (Native), English (C2)"
+      }
+    ]
+  },
+
+  {
+    "id": "katerina_tempelis",
+    "name": "Katerina Tempelis",
+    "head": "Project Athena",
+    "photoUrl": "/girl.png",
+    "departmentImageUrl": "/civil.png",
+    "small_description": "Civil Engineering Student, Autocad Designer",
+    "technical_skills": ["Autocad Design", "Smart Campus", "Architectural Model Design"],
+    "social": {},
+    "resume": [
+        {
+            "section_title": "Education",
+            "icon": "IconTools",
+            "description": "Civil Engineering Student | University of Peloponnese"
+        },
+        {
+            "section_title": "Interests",
+            "icon": "IconTools",
+            "description": "Autocad Design, Smart Campus, Architectural Model Design"
+        },
+        {
+            "section_title": "Languages",
+            "icon": "IconUser",
+            "description": "Greek (native), English (fluent)"
+        }
+    ]
+}
 ]
