@@ -1,4 +1,9 @@
+'use client';
+
+import { useState } from 'react';
+
 export default function Projects() {
+  const [expandedTags, setExpandedTags] = useState<string | null>(null);
   const projects = {
     athena: [
       {
@@ -185,7 +190,7 @@ export default function Projects() {
                       <p className="text-gray-600 dark:text-gray-300 mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed transition-colors duration-300 flex-grow">{project.description}</p>
                       
                       <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-3 sm:mb-4">
-                        {project.technologies.slice(0, 2).map((tech, techIndex) => (
+                        {(expandedTags === project.title ? project.technologies : project.technologies.slice(0, 2)).map((tech, techIndex) => (
                           <span
                             key={techIndex}
                             className="inline-flex items-center rounded-md bg-gray-50 dark:bg-gray-700 px-2 py-1 text-xs font-medium text-gray-600 dark:text-gray-300 ring-1 ring-inset ring-gray-500/10 dark:ring-gray-600/20 transition-colors duration-300"
@@ -193,9 +198,23 @@ export default function Projects() {
                             {tech}
                           </span>
                         ))}
-                        {project.technologies.length > 2 && (
-                          <span className="inline-flex items-center justify-center rounded-full bg-gray-50 dark:bg-gray-700 h-6 w-6 text-xs font-medium text-gray-500 dark:text-gray-400 ring-1 ring-inset ring-gray-500/10 dark:ring-gray-600/20 transition-colors duration-300">
+                        {project.technologies.length > 2 && expandedTags !== project.title && (
+                          <span 
+                            onClick={() => setExpandedTags(project.title)}
+                            onMouseEnter={() => setExpandedTags(project.title)}
+                            className="inline-flex items-center justify-center rounded-full bg-gray-50 dark:bg-gray-700 h-6 w-6 text-xs font-medium text-gray-500 dark:text-gray-400 ring-1 ring-inset ring-gray-500/10 dark:ring-gray-600/20 transition-colors duration-300 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-600"
+                            title="Click to show all tags"
+                          >
                             +{project.technologies.length - 2}
+                          </span>
+                        )}
+                        {expandedTags === project.title && (
+                          <span 
+                            onClick={() => setExpandedTags(null)}
+                            className="inline-flex items-center justify-center rounded-full bg-gray-50 dark:bg-gray-700 h-6 w-6 text-xs font-medium text-gray-500 dark:text-gray-400 ring-1 ring-inset ring-gray-500/10 dark:ring-gray-600/20 transition-colors duration-300 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-600"
+                            title="Click to collapse tags"
+                          >
+                            -
                           </span>
                         )}
                       </div>

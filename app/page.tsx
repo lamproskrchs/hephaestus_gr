@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useEffect } from 'react';
 
 export default function Home() {
@@ -130,6 +131,66 @@ export default function Home() {
 
       {/* Section Separator */}
       <div className="h-px bg-gradient-to-r from-transparent via-purple-500/50 to-transparent"></div>
+      
+      {/* Sponsors Section */}
+      <div className="py-24 relative overflow-hidden">
+        <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:text-center">
+            <h2 className="text-base font-semibold leading-7 text-purple-400 transition-colors duration-300">Our Sponsors</h2>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl transition-colors duration-300">
+              Trusted Partners
+            </p>
+            <p className="mt-6 text-lg leading-8 text-gray-300 transition-colors duration-300">
+              We are grateful for the support of our sponsors who help make our projects possible.
+            </p>
+          </div>
+          
+          <div className="mt-16 relative overflow-hidden">
+            <div className="sponsors-marquee">
+              <div className="sponsors-track">
+                {[
+                  'ANSYS_logo.png',
+                  'PCG.png',
+                  'coffeeverse.png',
+                  'simtec_bg_remove.png',
+                  'solidworks_bg_remove.png',
+                ].map((logo, index) => (
+                  <div key={index} className="sponsor-item">
+                    <Image
+                      src={`/sponsors/${logo}`}
+                      alt={`Sponsor ${logo.replace('.png', '')}`}
+                      width={150}
+                      height={80}
+                      className="sponsor-logo"
+                    />
+                  </div>
+                ))}
+                {/* Duplicate logos for seamless loop */}
+                {[
+                  'ANSYS_logo.png',
+                  'PCG.png',
+                  'coffeeverse.png',
+                  'simtec_bg_remove.png',
+                  'solidworks_bg_remove.png',
+                ].map((logo, index) => (
+                  <div key={`dup-${index}`} className="sponsor-item">
+                    <Image
+                      src={`/sponsors/${logo}`}
+                      alt={`Sponsor ${logo.replace('.png', '')}`}
+                      width={150}
+                      height={80}
+                      className="sponsor-logo"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      {/* Section Separator */}
+      <div className="h-px bg-gradient-to-r from-transparent via-blue-500/50 to-transparent"></div>
       
       {/* Image Slideshow Section */}
       <div className="py-24 relative overflow-hidden">
@@ -638,7 +699,7 @@ export default function Home() {
       </div>
 
       {/* Section Separator */}
-      <div className="h-px bg-gradient-to-r from-transparent via-pink-500/50 to-transparent"></div>
+      <div className="h-px bg-gradient-to-r from-transparent via-blue-500/50 to-transparent"></div>
       
       {/* Social Media & Contact Section */}
       <div className="py-24 relative overflow-hidden">

@@ -36,7 +36,7 @@ export default function Contact() {
               {/* Interactive Map */}
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4 hover:bg-white/10 transition-all duration-300 group">
                 <a 
-                  href="https://maps.google.com/?q=University+of+Thessaly+Department+of+Computer+Science+Lamia+Greece"
+                  href="https://www.google.com/maps/place/%CE%A0%CF%84%CE%AD%CF%81%CF%85%CE%B3%CE%B1+%CE%96,+%CE%A3%CF%87%CE%BF%CE%BB%CE%AE+%CE%9C%CE%B7%CF%87%CE%B1%CE%BD%CE%B9%CE%BA%CF%8E%CE%BD,+%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%AE%CE%BC%CE%B9%CE%BF+%CE%A0%CE%B5%CE%BB%CE%BF%CF%80%CE%BF%CE%BD%CE%BD%CE%AE%https://www.google.com/maps/place/%CE%A0%CF%84%CE%AD%CF%81%CF%85%CE%B3%CE%B1+%CE%96,+%CE%A3%CF%87%CE%BF%CE%BB%CE%AE+%CE%9C%CE%B7%CF%87%CE%B1%CE%BD%CE%B9%CE%BA%CF%8E%CE%BD,+%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%AE%CE%BC%CE%B9%CE%BF+%CE%A0%CE%B5%CE%BB%CE%BF%CF%80%CE%BF%CE%BD%CE%BD%CE%AE%CF%83%CE%BF%CF%85/@38.2189945,21.745513,19z/data=!4m9!1m2!2m1!1sUniversity+of+Peloponnese+Engineering+Department+Patra+Greece!3m5!1s0x135e37b031a33bb1:0x71769a1fe17a1e15!8m2!3d38.2188996!4d21.7461841!16s%2Fg%2F11kqczlgh1?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D%83%CE%BF%CF%85/@38.2188997,21.745167,19z/data=!4m9!1m2!2m1!1sUniversity+of+Peloponnese+Engineering+Department+Patra+Greece!3m5!1s0x135e37b031a33bb1:0x71769a1fe17a1e15!8m2!3d38.2188996!4d21.7461841!16s%2Fg%2F11kqczlgh1?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block"
@@ -71,9 +71,9 @@ export default function Contact() {
                   <div>
                     <h4 className="text-lg font-medium text-white mb-2">Address</h4>
                     <p className="text-white/80">
-                      University of Thessaly<br />
-                      Department of Computer Science<br />
-                      Lamia, Greece
+                      University of Peloponnese<br />
+                      Engineering Department<br />
+                      Patra, Greece
                     </p>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ export default function Contact() {
                 <a href="#" className="text-white/70 hover:text-purple-400 transition-colors duration-200 transform hover:scale-110">
                   <span className="sr-only">Instagram</span>
                   <svg className="h-7 w-7" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12.017 0C8.396 0 7.989.013 7.041.048 6.094.082 5.52.204 5.012.388a6.5 6.5 0 0 0-2.346 1.267c-.905.6-1.267 1.36-1.267 2.246 0 .264.037.457.096.639.148.467.414.8.748 1.15.334.35.683.566 1.15.748.182.059.375.096.639.096.886 0 1.646-.362 2.246-1.267a6.5 6.5 0 0 0 1.267-2.346C8.779.204 9.353.082 10.3.048 11.248.013 11.655 0 15.276 0h1.441C20.338 0 20.745.013 21.693.048c.947.034 1.521.156 2.029.34a6.5 6.5 0 0 1 2.346 1.267c.905.6 1.267 1.36 1.267 2.246 0 .264-.037.457-.096.639-.148.467-.414.8-.748 1.15-.334.35-.683.566-1.15.748-.182.059-.375.096-.639.096-.886 0-1.646-.362-2.246-1.267a6.5 6.5 0 0 1-1.267-2.346C21.221.204 20.647.082 19.7.048 18.752.013 18.345 0 14.724 0h-2.707zm-.017 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
                   </svg>
                 </a>
               </div>
