@@ -114,7 +114,7 @@ export default function RocketScrollIndicator() {
          const bankingAngle = Math.cos(scrollProgress * frequency) * 20;
          
          return {
-           position: 'fixed',
+           position: 'fixed' as const,
            left: `${horizontalPixels}px`,
            top: `${verticalPixels}px`,
            transform: `translate(-50%, -50%) rotate(${movementAngle + bankingAngle + (scrollDirection === 'down' ? 0 : 180)}deg)`,
