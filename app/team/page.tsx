@@ -4,6 +4,18 @@ import Link from 'next/link';
 
 export default function Team() {
   const teamMembers = {
+    teachers: [
+      {
+        name: "Paraskevas Kitsos",
+        role: "Professor",
+        department: "Electrical & Computer Engineering",
+        expertise: "Hardware Security, Cryptography, VLSI Design, Machine Learning Algorithms",
+        email: "pkitsos@uop.gr",
+        image: "/api/placeholder/300/300",
+        externalUrl: "https://www.ece.uop.gr/staff/kitsos-paraskevas/",
+        social: {}
+      }
+    ],
     heads: [
       {
         name: "Fotis Rentzis",
@@ -314,10 +326,10 @@ export default function Team() {
       members: teamMembers.heron
     },
     {
-      title: "Professional Advisors",
-      key: "professionals",
-      description: "Industry experts and academic professionals who provide guidance and mentorship.",
-      members: teamMembers.professionals
+      title: "Faculty Advisors",
+      key: "teachers",
+      description: "University professors who provide academic guidance and support to our team.",
+      members: teamMembers.teachers
     }
   ];
 
@@ -377,7 +389,11 @@ export default function Team() {
               <div className="grid grid-cols-2 gap-2 sm:gap-4 md:grid-cols-2 lg:grid-cols-3">
                 {category.members.map((member, index) => (
                   <div key={index} className="group h-full">
-                    <Link href={`/cv/${member.name.toLowerCase().replace(/\s+/g, '_')}`} className="block h-full">
+                    <Link 
+                      href={'externalUrl' in member ? member.externalUrl : `/cv/${member.name.toLowerCase().replace(/\s+/g, '_')}`}
+                      target={'externalUrl' in member ? "_blank" : "_self"}
+                      rel={'externalUrl' in member ? "noopener noreferrer" : ""}
+                      className="block h-full">
                       <div className="relative overflow-hidden rounded-xl bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl backdrop-saturate-150 shadow-lg shadow-black/5 border border-white/20 dark:border-gray-800/20 hover:shadow-xl hover:shadow-black/10 transition-all duration-300 h-full flex flex-col cursor-pointer">
                       {/* Member Image */}
                       <div className="aspect-[3/2] sm:aspect-square bg-gray-100 dark:bg-gray-700 flex items-center justify-center transition-colors duration-300">
@@ -484,15 +500,15 @@ export default function Team() {
           {/* Team Stats */}
           <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-3">
             <div>
-              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 transition-colors duration-300">{teamMembers.heads.length + teamMembers.professionals.length}</div>
+              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 transition-colors duration-300">1</div>
               <div className="text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300">Faculty & Professionals</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 transition-colors duration-300">{teamMembers.athena.length + teamMembers.zephyr.length + teamMembers.hermes.length + teamMembers.heron.length}</div>
+              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 transition-colors duration-300">20+</div>
               <div className="text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300">Student Members</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 transition-colors duration-300">4</div>
+              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 transition-colors duration-300">5+</div>
               <div className="text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300">Active Projects</div>
             </div>
           </div>

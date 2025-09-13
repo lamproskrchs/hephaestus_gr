@@ -672,15 +672,15 @@ export default function Home() {
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
               <div className="flex flex-col items-center text-center hover:scale-110 hover:text-emerald-300 transition-all duration-300 cursor-default">
-                <dt className="text-4xl font-bold text-white hover:animate-pulse">40+</dt>
-                <dd className="mt-2 text-base leading-7 text-gray-200">Active Members</dd>
+                <dt className="text-4xl font-bold text-white hover:animate-pulse">1</dt>
+                <dd className="mt-2 text-base leading-7 text-gray-200">Faculty & Professionals</dd>
               </div>
               <div className="flex flex-col items-center text-center hover:scale-110 hover:text-emerald-300 transition-all duration-300 cursor-default">
-                <dt className="text-4xl font-bold text-white hover:animate-pulse">10+</dt>
-                <dd className="mt-2 text-base leading-7 text-gray-200">Ongoing Projects</dd>
+                <dt className="text-4xl font-bold text-white hover:animate-pulse">20+</dt>
+                <dd className="mt-2 text-base leading-7 text-gray-200">Student Members</dd>
               </div>
               <div className="flex flex-col items-center text-center hover:scale-110 hover:text-emerald-300 transition-all duration-300 cursor-default">
-                <dt className="text-4xl font-bold text-white hover:animate-pulse">2</dt>
+                <dt className="text-4xl font-bold text-white hover:animate-pulse">5+</dt>
                 <dd className="mt-2 text-base leading-7 text-gray-200">Research Areas</dd>
               </div>
             </dl>
