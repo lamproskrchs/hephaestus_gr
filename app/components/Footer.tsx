@@ -94,22 +94,17 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   <li>
                     <Link href="/projects#athena" className="text-sm leading-6 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
-                      Athena
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/projects#zephyr" className="text-sm leading-6 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
-                      Zephyr
+                      Smart Campus
                     </Link>
                   </li>
                   <li>
                     <Link href="/projects#hermes" className="text-sm leading-6 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
-                      Hermes
+                      Rocketry
                     </Link>
                   </li>
                   <li>
                     <Link href="/projects#heron" className="text-sm leading-6 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
-                      Heron
+                      PLC / Industrial Automation
                     </Link>
                   </li>
                 </ul>

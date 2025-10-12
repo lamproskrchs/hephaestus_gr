@@ -48,9 +48,6 @@ export default function Projects() {
         status: "In Progress",
         github: "https://github.com/hyphestusrobotics/smart_campus_service"
       },
-
-    ],
-    zephyr: [
       {
         title: "weather_station_sensors",
         description: "Sensor code for the sensor of our weather station",
@@ -72,6 +69,7 @@ export default function Projects() {
         status: "Completed",
         github: "https://github.com/hyphestusrobotics/station_hardware_assembly"
       }
+
     ],
     hermes: [
       {
@@ -102,25 +100,19 @@ export default function Projects() {
 
   const subTeams = [
     {
-      name: "Athena",
+      name: "Smart Campus",
       key: "athena",
-      description: "Smart campus solutions combining civil engineering expertise with informatics automation for intelligent infrastructure.",
+      description: "Smart campus solutions combining civil engineering expertise with informatics automation and electrical engineering for intelligent infrastructure.",
       logo: null // Placeholder for team logo
     },
     {
-      name: "Zephyr",
-      key: "zephyr",
-      description: "Advanced weather monitoring systems and meteorological data analysis for environmental intelligence.",
-      logo: null // Placeholder for team logo
-    },
-    {
-      name: "Hermes",
+      name: "Rocketry",
       key: "hermes",
       description: "Rocket engineering and aerospace technology development for next-generation space exploration.",
       logo: null // Placeholder for team logo
     },
     {
-      name: "Heron",
+      name: "PLC / Industrial Automation",
       key: "heron",
       description: "Industrial automation and PLC programming solutions for advanced manufacturing processes.",
       logo: null // Placeholder for team logo
@@ -140,8 +132,8 @@ export default function Projects() {
             Our Projects
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300 transition-colors duration-300">
-            Explore the innovative projects developed by our specialized sub-teams: Athena (Smart Campus), 
-            Zephir (Weather Systems), Hermes (Rocket Engineering), and Heron (Industrial Automation). 
+            Explore the innovative projects developed by our specialized sub-teams: Smart Campus, 
+            Rocketry (Rocket Engineering), and PLC (Industrial Automation). 
             Each project represents our commitment to advancing technology and solving real-world challenges.
           </p>
         </div>
