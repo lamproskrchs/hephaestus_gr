@@ -3,63 +3,36 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { 
-  CodeBracketIcon, 
+  PhotoIcon, 
   CubeIcon, 
-  DevicePhoneMobileIcon,
   PaintBrushIcon,
-  ServerIcon,
-  CogIcon
 } from '@heroicons/react/24/outline';
 
 const positions = [
   {
-    id: 1,
-    title: 'Backend Developer',
-    icon: ServerIcon,
-    description: 'Build robust server-side applications and APIs that power our digital experiences.',
-    requirements: ['Node.js', 'Python', 'Database Design', 'API Development', 'Cloud Services'],
-    formLink: 'https://forms.google.com/backend-developer'
-  },
-  {
     id: 2,
     title: '3D Designer',
-    icon: CubeIcon,
+    icon: PaintBrushIcon,
     description: 'Create stunning 3D models, animations, and immersive visual experiences.',
     requirements: ['Blender', '3ds Max', 'Maya', 'Texturing', 'Animation', 'Rendering'],
     formLink: 'https://forms.google.com/3d-designer'
   },
   {
     id: 3,
-    title: 'Frontend Developer',
-    icon: CodeBracketIcon,
-    description: 'Craft beautiful, responsive user interfaces with modern web technologies.',
-    requirements: ['React', 'TypeScript', 'CSS/SCSS', 'Next.js', 'Tailwind CSS'],
+    title: 'Aerodynamics',
+    icon: CubeIcon,
+    description: 'Knowledge of aerodynamics principles, flight dynamics, and performance optimization.',
+    requirements: ['mech', 'AutoDesc', 'design',"AutoCAD", "Simulink"],	
     formLink: 'https://forms.google.com/frontend-developer'
   },
   {
     id: 4,
-    title: 'UI/UX Designer',
-    icon: PaintBrushIcon,
-    description: 'Design intuitive user experiences and create visually appealing interfaces.',
+    title: 'Video & Photograph',
+    icon: PhotoIcon,
+    description: 'Capture and edit videos, create compelling photographs, and edit images.',
     requirements: ['Figma', 'Adobe XD', 'Prototyping', 'User Research', 'Design Systems'],
     formLink: 'https://forms.google.com/ui-ux-designer'
   },
-  {
-    id: 5,
-    title: 'DevOps Engineer',
-    icon: CogIcon,
-    description: 'Streamline development workflows and manage scalable infrastructure.',
-    requirements: ['Docker', 'Kubernetes', 'AWS/Azure', 'CI/CD', 'Monitoring'],
-    formLink: 'https://forms.google.com/devops-engineer'
-  },
-  {
-    id: 6,
-    title: 'Mobile Developer',
-    icon: DevicePhoneMobileIcon,
-    description: 'Develop cross-platform mobile applications with native performance.',
-    requirements: ['React Native', 'Flutter', 'iOS/Android', 'Mobile UI', 'App Store'],
-    formLink: 'https://forms.google.com/mobile-developer'
-  }
 ];
 
 

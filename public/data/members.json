@@ -19,12 +19,6 @@
       "Microprocessors"
     ],
     "social": {
-      "linkedin": "https://linkedin.com/in/fotis-rentzis",
-      "twitter": "https://twitter.com/fotis_r",
-      "github": "https://github.com/fotis-r",
-      "researchgate": "https://researchgate.net/profile/Fotis-Rentzis",
-      "instagram": "https://instagram.com/fotis_r",
-      "youtube": "https://youtube.com/@fotis-r"
     },
     "resume": [
       {
@@ -79,12 +73,9 @@
       "Mobile Development"
     ],
     "social": {
-      "linkedin": "https://linkedin.com/in/lampros-karachristos",
-      "twitter": "https://twitter.com/lampros_k",
-      "github": "https://github.com/lampros-k",
-      "researchgate": "https://researchgate.net/profile/Lampros-Karachristos",
-      "instagram": "https://instagram.com/lampros_k",
-      "youtube": "https://youtube.com/@lampros-k"
+      "linkedin": "https://www.linkedin.com/in/lampros-karachristos",
+      "github": "https://github.com/lamproskrchs",
+      "instagram": "https://www.instagram.com/lampros.karachristos/"
     },
     "resume": [
       {
@@ -325,61 +316,6 @@
     ]
   },
   {
-    "id": "christos_dimakopoulos",
-    "name": "Christos Dimakopoulos",
-    "head": "Project Hermes",
-    "photoUrl": "/photo.png",
-    "departmentImageUrl": "/coms.png",
-    "small_description": "ECE Student",
-    "technical_skills": [
-      "Arduino",
-      "LoRa",
-      "ESP32",
-      "IoT Systems",
-      "Embedded C",
-      "PCB Design",
-      "Wireless Communication"
-    ],
-    "social": {},
-    "resume": [
-      {
-        "section_title": "Education",
-        "icon": "IconSchool",
-        "description": "ECE Student"
-      },
-      {
-        "section_title": "Languages",
-        "icon": "IconUser",
-        "description": "Greek (native), English (fluent), German (intermediate)"
-      },
-      {
-        "section_title": "Technical Skills",
-        "icon": "IconTools",
-        "description": "Arduino, LoRa, ESP32, IoT Systems, Embedded C, PCB Design"
-      },
-      {
-        "section_title": "Telecommunications Systems",
-        "icon": "IconBriefcase",
-        "description": "Extensive knowledge of wireless communication technologies, including LoRaWAN, RF modules, and signal processing techniques."
-      },
-      {
-        "section_title": "Projects",
-        "icon": "IconTools",
-        "description": "Developed LoRa-based remote sensor networks. Built Arduino and ESP32-powered telemetry systems with cloud integration."
-      },
-      {
-        "section_title": "Workshops & Seminars",
-        "icon": "IconSchool",
-        "description": "Attended technical workshops on Internet of Things (IoT), microcontroller programming, and embedded systems design."
-      },
-      {
-        "section_title": "Interests",
-        "icon": "IconUser",
-        "description": "IoT Development, Amateur Radio, Automation, Open Source Hardware"
-      }
-    ]
-  },
-  {
     "id": "panagiotis_adam",
     "name": "Panagiotis Adam",
     "head": "Project Hermes",
@@ -489,91 +425,6 @@
       }
     ]
   },
-  {
-    "id": "sofia_christodoulaki",
-    "name": "Sofia Christodoulaki",
-    "head": "Project Hermes",
-    "photoUrl": "/girl.png",
-    "technical_skills": ["Mechanical Engineering"],
-    "social": {},
-    "departmentImageUrl": "/mech.png",
-    "small_description": "Mechanical Engineering Student",
-    "resume": [
-      {
-        "section_title": "Education",
-        "icon": "IconTools",
-        "description": "Mechanical engineering student at the University of Peloponnese"
-      },
-      {
-        "section_title": "Languages",
-        "icon": "IconUser",
-        "description": "Greek (native), English (ECPE)"
-      }
-    ]
-  },
-  {
-    "id": "stefanos_sikalos",
-    "name": "Stefanos Sikalos",
-    "head": "Hermes Project",
-    "photoUrl": "/boy.png",
-    "departmentImageUrl": "/mech.png",
-    "small_description": "Mechanical Engineering Student, 3D Printing Specialist",
-    "technical_skills": [
-      "3D Design",
-      "Fusion 360",
-      "SolidWorks",
-      "3D Printing",
-      "Basic Python"
-    ],
-    "social": {},
-    "resume": [
-      {
-        "section_title": "Education",
-        "icon": "IconSchool",
-        "description": "Mechanical Engineering Student | University of Peloponnese"
-      },
-      {
-        "section_title": "Project Hermes – Rocketry",
-        "icon": "IconBriefcase",
-        "description": "Member of the Hephaestus Team Recovery subgroup, focusing on the parachute system for rocket retrieval and safe landing."
-      },
-      {
-        "section_title": "SimUoPLabs – Student Research Group",
-        "icon": "IconBriefcase",
-        "description": "Member of SimUoPLabs, a research team at the University of Peloponnese specializing in static and fluid dynamics analyses and innovative engineering solutions."
-      },
-      {
-        "section_title": "Autonomous Irrigation System",
-        "icon": "IconTools",
-        "description": "Developed a fully autonomous irrigation system for a remote olive grove, powered by solar energy and controlled remotely for efficient water management."
-      },
-      {
-        "section_title": "Small-Scale Hydroponics Farm",
-        "icon": "IconTools",
-        "description": "Currently developing a compact hydroponics farm setup, focused on low-cost and modular design for student research and small-scale food production."
-      },
-      {
-        "section_title": "Ultra Low-Budget SLS 3D Printer",
-        "icon": "IconTools",
-        "description": "Designing and prototyping an ultra low-budget Selective Laser Sintering (SLS) 3D printer aimed at affordable high-strength parts production for student and hobbyist use."
-      },
-      {
-        "section_title": "Skills",
-        "icon": "IconTools",
-        "description": "3D Design (Fusion 360, SolidWorks), 3D Printing (1000+ hours), Basic Python"
-      },
-      {
-        "section_title": "Achievements",
-        "icon": "IconTools",
-        "description": "Finalist in WRO-ELAS Robotics Competition"
-      },
-      {
-        "section_title": "Languages",
-        "icon": "IconUser",
-        "description": "Greek (Native), English (Advanced)"
-      }
-    ]
-  },
 
   {
     "id": "epameinondas_tagkalis",
@@ -626,38 +477,6 @@
   },
 
   {
-    "id": "katerina_tempelis",
-    "name": "Katerina Tempelis",
-    "head": "Project Athena",
-    "photoUrl": "/girl.png",
-    "departmentImageUrl": "/civil.png",
-    "small_description": "Civil Engineering Student, Autocad Designer",
-    "technical_skills": [
-      "Autocad Design",
-      "Smart Campus",
-      "Architectural Model Design"
-    ],
-    "social": {},
-    "resume": [
-      {
-        "section_title": "Education",
-        "icon": "IconTools",
-        "description": "Civil Engineering Student | University of Peloponnese"
-      },
-      {
-        "section_title": "Interests",
-        "icon": "IconTools",
-        "description": "Autocad Design, Smart Campus, Architectural Model Design"
-      },
-      {
-        "section_title": "Languages",
-        "icon": "IconUser",
-        "description": "Greek (native), English (fluent)"
-      }
-    ]
-  },
-
-  {
     "id": "nikolaos_vlachavas",
     "name": "Nikolaos Vlachavas",
     "head": "Project Heron",
@@ -693,50 +512,6 @@
         "section_title": "Experience",
         "icon": "IconBriefcase",
         "description": "Hephaestus Heron Student Team (2025-Present): PLC programming in Ladder language, industrial automation applications, teamwork"
-      },
-      {
-        "section_title": "Interests",
-        "icon": "IconTools",
-        "description": "Automation & Smart Systems, Energy & Technological Innovations, Student Team Projects"
-      }
-    ]
-  },
-  {
-    "id": "ioannis_vlachavas",
-    "name": "Ioannis Vlachavas",
-    "head": "Project Heron",
-    "photoUrl": "/boy.png",
-    "social": {},
-    "departmentImageUrl": "/ece.png",
-    "small_description": "Electrical & Computer Engineering Student, PLC Programming, Automation Systems",
-    "technical_skills": [
-      "C Programming",
-      "Python",
-      "PLC Programming",
-      "Automation Technologies",
-      "Industrial Automation",
-      "Technical English"
-    ],
-    "resume": [
-      {
-        "section_title": "Education",
-        "icon": "IconSchool",
-        "description": "Electrical & Computer Engineering Student | University of Peloponnese (3rd Year)"
-      },
-      {
-        "section_title": "Languages",
-        "icon": "IconUser",
-        "description": "Greek (native), English (B2 Level - Michigan Certificate, TOEIC)"
-      },
-      {
-        "section_title": "Technical Skills",
-        "icon": "IconTools",
-        "description": "Programming: C, Python | Automation Technologies & PLC"
-      },
-      {
-        "section_title": "Experience",
-        "icon": "IconBriefcase",
-        "description": "Hephaestus Heron Student Team (2025-Present): PLC programming in Ladder language, industrial automation applications"
       },
       {
         "section_title": "Interests",
@@ -923,64 +698,375 @@
     ]
   },
   {
-    "id": "fillipos_stamos",
-    "name": "Fillipos Stamos",
-    "head": "Project Hermes",
+    "id": "ilias_varelis",
+    "name": "Ilias Varelis",
+    "head": "Member – Aerodynamics Division",
     "photoUrl": "/boy.png",
-    "social": {},
     "departmentImageUrl": "/mech.png",
-    "small_description": "Mechanical Engineering Student, Robotics Enthusiast, Team Leader, Technical Director",
+    "small_description": "Mechanical Engineering student focusing on aerodynamics, simulation, and 3D design.",
     "technical_skills": [
-      "Mechanical Engineering",
-      "Aerodynamics",
-      "Fluid Dynamics",
-      "Project Management",
-      "Team Leadership",
-      "Robotics",
-      "Sound Engineering",
-      "Lighting Design"
+      "Aerodynamic Analysis",
+      "Static Simulations",
+      "MATLAB",
+      "SolidWorks",
+      "Fusion 360",
+      "AutoCAD",
+      "Team Collaboration"
     ],
+    "social": {
+      "linkedin": "",
+      "github": "",
+      "instagram": "",
+      "twitter": ""
+    },
     "resume": [
       {
         "section_title": "Education",
         "icon": "IconSchool",
-        "description": "Mechanical Engineering Student | University of Peloponnese"
+        "description": "Undergraduate student in Mechanical Engineering | University of Peloponnese (3rd year)."
       },
       {
-        "section_title": "Formula Student - Minautor Racing Team",
+        "section_title": "Experience",
         "icon": "IconBriefcase",
-        "description": "Founder of the 'Minautor Racing' Formula Student team. Technical Director for a short period, currently leading the aerodynamics and cooling subgroup. Our goal is to optimize car performance throughout its journey, from engine cooling to cornering grip for better lap times."
-      },
-      {
-        "section_title": "Project Hermes - Rocket Engineering",
-        "icon": "IconBriefcase",
-        "description": "Team Director of Project Hermes, responsible for aerodynamics. We are developing a rocket to participate in the Czech Rocket Challenge, aiming to reach an altitude of 1 kilometer."
-      },
-      {
-        "section_title": "SimUoPLabs - Student Research Group",
-        "icon": "IconBriefcase",
-        "description": "Leader of SimUoPLabs, a student research group at the University of Peloponnese. We specialize in static and fluid dynamics analyses for engineering applications."
-      },
-      {
-        "section_title": "Experience in Digital Media and Production",
-        "icon": "IconBriefcase",
-        "description": "Created an internet radio station at 2nd Lyceum of Koropi and produced podcasts, acting as both producer and technician. Additionally, I have experience in sound engineering, lighting design, and music instrument performances."
-      },
-      {
-        "section_title": "F1 in Schools Participation",
-        "icon": "IconBriefcase",
-        "description": "Participated in the F1 in Schools competition as part of the Bluearrowgr team during middle and high school at the Gymnasium and Lyceum of Vouliagmeni."
+        "description": "Assistant Instructor – University of Peloponnese (2024): Helped students in 3D design course (Fusion 360). Member of Aerodynamics Division – Hephaestus Team (2023–Present)."
       },
       {
         "section_title": "Skills",
         "icon": "IconTools",
-        "description": "Mechanical Engineering, Technical Direction, Aerodynamics, Fluid Dynamics, Project Management, Team Leadership, Robotics"
+        "description": "Aerodynamics, Static analysis, MATLAB, SolidWorks, Fusion 360, AutoCAD."
+      },
+      {
+        "section_title": "Activities",
+        "icon": "IconHeart",
+        "description": "Theater, choir, poetry, fishing, chess, gaming."
       },
       {
         "section_title": "Languages",
         "icon": "IconUser",
-        "description": "Greek (native), English (fluent)"
+        "description": "Greek (native), English (fluent)."
       }
     ]
-  }
+  },
+
+  {
+    "id": "georgios_kousanas",
+    "name": "Georgios Kousanas",
+    "head": "Electronics Engineer",
+    "photoUrl": "/boy.png",
+    "departmentImageUrl": "/ece.png",
+    "small_description": "Electrical & Computer Engineering student specializing in hardware repair, electronics, and diagnostic systems.",
+    "technical_skills": [
+      "Electronics Repair",
+      "Soldering",
+      "Circuit Diagnostics",
+      "Schematics Reading",
+      "Hardware Maintenance",
+      "Teamwork"
+    ],
+    "social": {
+      "linkedin": "",
+      "github": "",
+      "instagram": "https://instagram.com/g.kousanas",
+      "twitter": ""
+    },
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconSchool",
+        "description": "Electrical & Computer Engineering student (5th year) | University of Peloponnese."
+      },
+      {
+        "section_title": "Experience",
+        "icon": "IconBriefcase",
+        "description": "Intern Electronics Technician at NOVIDEA (Apr–Aug 2024). Repaired POS and circuit boards using soldering, hot air, and preheater tools. Diagnosed faults using schematics and multimeter."
+      },
+      {
+        "section_title": "Skills",
+        "icon": "IconTools",
+        "description": "Hardware repair, component diagnostics, circuit board maintenance, teamwork, and initiative."
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (B2, Lower Michigan)."
+      }
+    ]
+  },
+  {
+    "id": "giannis_delis",
+    "name": "Giannis Delis",
+    "head": "Mechanical Engineer Student",
+    "photoUrl": "/boy.png",
+    "departmentImageUrl": "/mech.png",
+    "small_description": "Mechanical Engineering student with hands-on experience in design, mechanical systems, and participation in high-technology projects such as Project Hermes.",
+    "technical_skills": [
+      "Mechanical Design",
+      "3D Modeling",
+      "CAD Tools",
+      "Project Collaboration",
+      "Teamwork",
+      "Problem Solving"
+    ],
+    "social": {
+      "linkedin": "",
+      "github": "",
+      "instagram": "",
+      "twitter": ""
+    },
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconSchool",
+        "description": "Undergraduate student in Mechanical Engineering | University of Peloponnese (2021–present)."
+      },
+      {
+        "section_title": "Projects",
+        "icon": "IconBriefcase",
+        "description": "Active participant in 'Project Hermes', focusing on mechanical design, assembly, and system integration."
+      },
+      {
+        "section_title": "Skills",
+        "icon": "IconTools",
+        "description": "Mechanical design, 3D modeling, teamwork, CAD applications, and mechanical problem-solving."
+      },
+      {
+        "section_title": "Activities",
+        "icon": "IconHeart",
+        "description": "Involved in research and innovation activities within Hephaestus team and mechanical subsystems of Hermes project."
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (fluent)."
+      }
+    ]
+  },
+  {
+    "id": "stratos_andriotis",
+    "name": "Stratos Andriotis",
+    "head": "Mechanical Engineer Student",
+    "photoUrl": "/boy.png",
+    "departmentImageUrl": "/mech.png",
+    "small_description": "Mechanical Engineering student with strong background in mathematics, physics, and programming using Fortran for scientific computations.",
+    "technical_skills": [
+      "Mathematics",
+      "Physics",
+      "Fortran Programming",
+      "Mechanical Analysis",
+      "Problem Solving",
+      "Team Collaboration"
+    ],
+    "social": {
+      "linkedin": "",
+      "github": "",
+      "instagram": "",
+      "twitter": ""
+    },
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconSchool",
+        "description": "Undergraduate student in Mechanical Engineering | University of Peloponnese (2021–present)."
+      },
+      {
+        "section_title": "Research Interests",
+        "icon": "IconTools",
+        "description": "Mathematical modeling, applied physics, mechanical systems analysis, and scientific programming using Fortran."
+      },
+      {
+        "section_title": "Projects",
+        "icon": "IconBriefcase",
+        "description": "Participation in academic projects involving mechanical analysis and numerical simulations."
+      },
+      {
+        "section_title": "Skills",
+        "icon": "IconTools",
+        "description": "Advanced mathematics, physics, Fortran programming, analytical problem solving, and teamwork."
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (fluent)."
+      }
+    ]
+  },
+  {
+    "id": "georgios_gidiotis",
+    "name": "Georgios Gidiotis",
+    "head": "ECE Student",
+    "photoUrl": "/boy.png",
+    "departmentImageUrl": "/ece.png",
+    "small_description": "Electrical & Computer Engineering student specializing in embedded systems and microcontrollers.",
+    "technical_skills": [
+      "Embedded Systems",
+      "Microcontrollers",
+      "C Programming",
+      "Arduino",
+      "Raspberry Pi",
+      "IoT",
+      "Hardware Development"
+    ],
+    "social": {
+      "linkedin": "",
+      "github": "",
+      "instagram": "",
+      "twitter": ""
+    },
+    "resume": [
+      {
+        "section_title": "Education",
+        "icon": "IconSchool",
+        "description": "Undergraduate student in Electrical & Computer Engineering | University of Peloponnese."
+      },
+      {
+        "section_title": "Projects",
+        "icon": "IconBriefcase",
+        "description": "Participation in embedded systems projects focusing on sensor integration and automation using microcontrollers."
+      },
+      {
+        "section_title": "Skills",
+        "icon": "IconTools",
+        "description": "Embedded systems, Arduino, Raspberry Pi, C programming, IoT applications, and circuit design."
+      },
+      {
+        "section_title": "Languages",
+        "icon": "IconUser",
+        "description": "Greek (native), English (fluent)."
+      }
+    ]
+  },
+  {
+  "id": "kostas_pigadas",
+  "name": "Kostas Pigadas",
+  "head": "ECE Student",
+  "photoUrl": "/boy.png",
+  "departmentImageUrl": "/ece.png",
+  "small_description": "Electrical & Computer Engineering student passionate about embedded systems, microcontrollers, and automation technologies.",
+  "technical_skills": [
+    "Embedded Systems",
+    "Microcontrollers",
+    "Arduino",
+    "C/C++ Programming",
+    "IoT",
+    "Circuit Design",
+    "Digital Electronics"
+  ],
+  "social": {
+    "linkedin": "",
+    "github": "",
+    "instagram": "",
+    "twitter": ""
+  },
+  "resume": [
+    {
+      "section_title": "Education",
+      "icon": "IconSchool",
+      "description": "Undergraduate student in Electrical & Computer Engineering | University of Peloponnese."
+    },
+    {
+      "section_title": "Projects",
+      "icon": "IconBriefcase",
+      "description": "Participation in embedded systems projects focusing on automation and sensor-based control mechanisms."
+    },
+    {
+      "section_title": "Skills",
+      "icon": "IconTools",
+      "description": "Embedded systems, Arduino, C/C++, IoT, digital electronics, and teamwork."
+    },
+    {
+      "section_title": "Languages",
+      "icon": "IconUser",
+      "description": "Greek (native), English (fluent)."
+    }
+  ]
+},
+{
+  "id": "stavros_ioannidis",
+  "name": "Stavros Ioannidis",
+  "head": "ECE Student",
+  "photoUrl": "/boy.png",
+  "departmentImageUrl": "/ece.png",
+  "small_description": "Electrical & Computer Engineering student specializing in embedded systems, microcontrollers, and IoT development.",
+  "technical_skills": [
+    "Embedded Systems",
+    "Microcontrollers",
+    "C Programming",
+    "Arduino",
+    "Raspberry Pi",
+    "IoT",
+    "Sensors & Automation"
+  ],
+  "social": {
+    "linkedin": "",
+    "github": "",
+    "instagram": "",
+    "twitter": ""
+  },
+  "resume": [
+    {
+      "section_title": "Education",
+      "icon": "IconSchool",
+      "description": "Undergraduate student in Electrical & Computer Engineering | University of Peloponnese."
+    },
+    {
+      "section_title": "Projects",
+      "icon": "IconBriefcase",
+      "description": "Participation in embedded systems projects with focus on IoT connectivity and data-driven control."
+    },
+    {
+      "section_title": "Skills",
+      "icon": "IconTools",
+      "description": "Embedded systems, Arduino, Raspberry Pi, C programming, IoT, and automation."
+    },
+    {
+      "section_title": "Languages",
+      "icon": "IconUser",
+      "description": "Greek (native), English (fluent)."
+    }
+  ]
+},
+{
+  "id": "fotis_iakovakis",
+  "name": "Fotis Iakovakis",
+  "head": "ECE Student",
+  "photoUrl": "/boy.png",
+  "departmentImageUrl": "/ece.png",
+  "small_description": "Electrical & Computer Engineering student with a strong focus on PLC systems, industrial automation, and control technologies.",
+  "technical_skills": [
+    "PLC Programming",
+    "Automation Systems",
+    "Electrical Design",
+    "Industrial Control",
+    "Ladder Logic",
+    "Teamwork"
+  ],
+  "social": {
+    "linkedin": "",
+    "github": "",
+    "instagram": "",
+    "twitter": ""
+  },
+  "resume": [
+    {
+      "section_title": "Education",
+      "icon": "IconSchool",
+      "description": "Undergraduate student in Electrical & Computer Engineering | University of Peloponnese."
+    },
+    {
+      "section_title": "Experience",
+      "icon": "IconBriefcase",
+      "description": "Participation in industrial automation projects using PLC systems, focusing on ladder logic programming and process control."
+    },
+    {
+      "section_title": "Skills",
+      "icon": "IconTools",
+      "description": "PLC programming, automation systems, electrical design, and industrial applications."
+    },
+    {
+      "section_title": "Languages",
+      "icon": "IconUser",
+      "description": "Greek (native), English (fluent)."
+    }
+  ]
+}
 ]
