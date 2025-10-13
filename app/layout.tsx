@@ -5,6 +5,7 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import { ThemeProvider } from "./components/ThemeProvider";
 import RocketScrollIndicator from "./components/RocketScrollIndicator";
+import { Analytics } from "@vercel/analytics/next"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +38,7 @@ export default function RootLayout({
           <Footer />
           <RocketScrollIndicator />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
