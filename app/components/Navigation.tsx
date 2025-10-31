@@ -41,7 +41,7 @@ export default function Navigation() {
           <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-3">
             <span className="sr-only">Hephaestus</span>
             <img 
-              src="/logo.png" 
+              src="/logo2.png"
               alt="Hephaestus Logo" 
               className={`transition-all duration-300 ${
                 isMounted && shouldShrink ? 'h-8 w-8' : 'h-10 w-10'

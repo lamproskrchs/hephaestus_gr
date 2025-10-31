@@ -83,7 +83,7 @@ export default function Home() {
             {/* Large Hephaestus Logo */}
             <div className="mt-8 flex justify-center">
               <img 
-                src="/logo.png" 
+                src="/logo2.png"
                 alt="Hephaestus Logo" 
                 className="h-40 w-40 opacity-90 hover:opacity-100 transition-opacity duration-300"
               />

@@ -7,32 +7,18 @@ import {
   CubeIcon, 
   PaintBrushIcon,
 } from '@heroicons/react/24/outline';
+import {UsersIcon} from "@heroicons/react/16/solid";
 
 const positions = [
-  {
-    id: 2,
-    title: '3D Designer',
-    icon: PaintBrushIcon,
-    description: 'Create stunning 3D models, animations, and immersive visual experiences.',
-    requirements: ['Blender', '3ds Max', 'Maya', 'Texturing', 'Animation', 'Rendering'],
-    formLink: 'https://forms.google.com/3d-designer'
-  },
-  {
-    id: 3,
-    title: 'Aerodynamics',
-    icon: CubeIcon,
-    description: 'Knowledge of aerodynamics principles, flight dynamics, and performance optimization.',
-    requirements: ['mech', 'AutoDesc', 'design',"AutoCAD", "Simulink"],	
-    formLink: 'https://forms.google.com/frontend-developer'
-  },
-  {
-    id: 4,
-    title: 'Video & Photograph',
-    icon: PhotoIcon,
-    description: 'Capture and edit videos, create compelling photographs, and edit images.',
-    requirements: ['Figma', 'Adobe XD', 'Prototyping', 'User Research', 'Design Systems'],
-    formLink: 'https://forms.google.com/ui-ux-designer'
-  },
+    {
+        id: 1,
+        title: 'Join Our Team',
+        icon: UsersIcon,
+        description: 'Apply once to be considered for roles such as Developer, Mechanical Engineer, 3D Designer, and more. We’ll match you with the best fit based on your skills.',
+        requirements: ['Developer', 'Mechanical Engineer', '3D Designer', 'UI/UX Designer', 'Project Manager'],
+        formLink: 'https://forms.gle/u9pKNXPD3B9gSECX9'
+    }
+
 ];
 
 
