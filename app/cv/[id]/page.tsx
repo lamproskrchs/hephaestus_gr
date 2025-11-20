@@ -101,7 +101,7 @@ export default function CVPage() {
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <div className="text-gray-900 dark:text-white text-xl transition-colors duration-300">Loading...</div>
+        <div className="text-white text-xl transition-colors duration-300">Loading...</div>
       </div>
     );
   }
@@ -109,7 +109,7 @@ export default function CVPage() {
   if (error || !member) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <div className="text-gray-900 dark:text-white text-xl transition-colors duration-300">{error || 'Member not found'}</div>
+        <div className="text-white text-xl transition-colors duration-300">{error || 'Member not found'}</div>
       </div>
     );
   }

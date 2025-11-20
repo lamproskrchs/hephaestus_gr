@@ -339,35 +339,35 @@ export default function Team() {
     <div className="relative isolate py-24 sm:py-32 transition-colors duration-300">
       {/* Purple gradient blur - top left */}
       <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
-        <div className="relative left-[calc(50%-20rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[60deg] bg-gradient-to-tr from-[#9089fc] to-[#ff80b5] opacity-25 dark:opacity-15 sm:left-[calc(50%-35rem)] sm:w-[72.1875rem] transition-opacity duration-300"></div>
+        <div className="relative left-[calc(50%-20rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[60deg] bg-gradient-to-tr from-[#9089fc] to-[#ff80b5] opacity-15 sm:left-[calc(50%-35rem)] sm:w-[72.1875rem] transition-opacity duration-300"></div>
       </div>
 
       {/* Purple gradient blur - upper middle left */}
       <div className="absolute inset-x-0 top-[calc(30%-5rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(30%-15rem)]">
-        <div className="relative left-[calc(50%-30rem)] aspect-[1155/678] w-[30.125rem] -translate-x-1/2 rotate-[75deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-18 dark:opacity-11 sm:left-[calc(50%-40rem)] sm:w-[60.1875rem] transition-opacity duration-300"></div>
+        <div className="relative left-[calc(50%-30rem)] aspect-[1155/678] w-[30.125rem] -translate-x-1/2 rotate-[75deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-11 sm:left-[calc(50%-40rem)] sm:w-[60.1875rem] transition-opacity duration-300"></div>
       </div>
 
       {/* Purple gradient blur - middle right */}
       <div className="absolute inset-x-0 top-[calc(50%-10rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(50%-20rem)]">
-        <div className="relative left-[calc(50%+15rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[-45deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 dark:opacity-10 sm:left-[calc(50%+25rem)] sm:w-[72.1875rem] transition-opacity duration-300"></div>
+        <div className="relative left-[calc(50%+15rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[-45deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-10 sm:left-[calc(50%+25rem)] sm:w-[72.1875rem] transition-opacity duration-300"></div>
       </div>
 
       {/* Purple gradient blur - lower middle left */}
       <div className="absolute inset-x-0 top-[calc(70%-8rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(70%-18rem)]">
-        <div className="relative left-[calc(50%-25rem)] aspect-[1155/678] w-[32.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#9089fc] to-[#ff80b5] opacity-22 dark:opacity-13 sm:left-[calc(50%-35rem)] sm:w-[64.1875rem] transition-opacity duration-300"></div>
+        <div className="relative left-[calc(50%-25rem)] aspect-[1155/678] w-[32.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#9089fc] to-[#ff80b5] opacity-13 sm:left-[calc(50%-35rem)] sm:w-[64.1875rem] transition-opacity duration-300"></div>
       </div>
 
       {/* Purple gradient blur - bottom right */}
       <div className="absolute inset-x-0 top-[calc(85%-5rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(85%-15rem)]">
-        <div className="relative left-[calc(50%+20rem)] aspect-[1155/678] w-[28.125rem] -translate-x-1/2 rotate-[-60deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-16 dark:opacity-9 sm:left-[calc(50%+30rem)] sm:w-[56.1875rem] transition-opacity duration-300"></div>
+        <div className="relative left-[calc(50%+20rem)] aspect-[1155/678] w-[28.125rem] -translate-x-1/2 rotate-[-60deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-9 sm:left-[calc(50%+30rem)] sm:w-[56.1875rem] transition-opacity duration-300"></div>
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl transition-colors duration-300">
+          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl transition-colors duration-300">
             Meet Our Team
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300 transition-colors duration-300">
+          <p className="mt-6 text-lg leading-8 text-gray-300 transition-colors duration-300">
             Our diverse team brings together expertise from robotics,
             automation, and informatics. We combine academic excellence with
             practical innovation to push the boundaries of technology.
@@ -380,10 +380,10 @@ export default function Team() {
             <div key={category.key}>
               {/* Category Header */}
               <div className="text-center mb-12">
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
+                <h3 className="text-2xl font-bold text-white mb-4 transition-colors duration-300">
                   {category.title}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto transition-colors duration-300">
+                <p className="text-gray-300 max-w-2xl mx-auto transition-colors duration-300">
                   {category.description}
                 </p>
               </div>
@@ -404,32 +404,32 @@ export default function Team() {
                       rel={"externalUrl" in member ? "noopener noreferrer" : ""}
                       className="block h-full"
                     >
-                      <div className="relative overflow-hidden rounded-xl bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl backdrop-saturate-150 shadow-lg shadow-black/5 border border-white/20 dark:border-gray-800/20 hover:shadow-xl hover:shadow-black/10 transition-all duration-300 h-full flex flex-col cursor-pointer">
+                      <div className="relative overflow-hidden rounded-xl bg-gray-900/80 backdrop-blur-xl backdrop-saturate-150 shadow-lg shadow-black/5 border border-gray-800/20 hover:shadow-xl hover:shadow-black/10 transition-all duration-300 h-full flex flex-col cursor-pointer">
                         {/* Member Image */}
-                        <div className="aspect-[3/2] sm:aspect-square bg-gray-100 dark:bg-gray-700 flex items-center justify-center transition-colors duration-300">
-                          <div className="text-gray-400 dark:text-gray-500 text-xs sm:text-sm transition-colors duration-300">
+                        <div className="aspect-[3/2] sm:aspect-square bg-gray-700 flex items-center justify-center transition-colors duration-300">
+                          <div className="text-gray-500 text-xs sm:text-sm transition-colors duration-300">
                             Photo
                           </div>
                         </div>
 
                         {/* Member Info */}
                         <div className="p-2 sm:p-4 lg:p-6 flex-1 flex flex-col">
-                          <h4 className="text-sm sm:text-lg lg:text-xl font-semibold text-gray-900 dark:text-white mb-1 transition-colors duration-300">
+                          <h4 className="text-sm sm:text-lg lg:text-xl font-semibold text-white mb-1 transition-colors duration-300">
                             {member.name}
                           </h4>
-                          <p className="text-xs sm:text-sm text-purple-600 dark:text-purple-400 font-medium mb-1 sm:mb-2 transition-colors duration-300">
+                          <p className="text-xs sm:text-sm text-purple-400 font-medium mb-1 sm:mb-2 transition-colors duration-300">
                             {member.role}
                           </p>
 
                           {/* Department/Year */}
-                          <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300 mb-1 sm:mb-2 transition-colors duration-300">
+                          <p className="text-xs sm:text-sm text-gray-300 mb-1 sm:mb-2 transition-colors duration-300">
                             {"department" in member
                               ? member.department
                               : member.year}
                           </p>
 
                           {/* Expertise */}
-                          <p className="text-xs sm:text-sm text-gray-700 dark:text-gray-300 mb-2 sm:mb-4 transition-colors duration-300">
+                          <p className="text-xs sm:text-sm text-gray-300 mb-2 sm:mb-4 transition-colors duration-300">
                             <span className="font-medium">Expertise:</span>{" "}
                             {member.expertise}
                           </p>
@@ -440,7 +440,7 @@ export default function Team() {
                             <div className="flex items-center justify-center sm:justify-start gap-2 sm:gap-3">
                               {/* Contact Icons */}
                               <svg
-                                className="h-3 w-3 sm:h-4 sm:w-4 text-gray-500 dark:text-gray-400"
+                                className="h-3 w-3 sm:h-4 sm:w-4 text-gray-400"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 strokeWidth="1.5"
@@ -465,11 +465,11 @@ export default function Team() {
         </div>
 
         {/* Join Us Section */}
-        <div className="mt-20 bg-gray-50 dark:bg-gray-800 rounded-2xl p-8 text-center transition-colors duration-300">
-          <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
+        <div className="mt-20 bg-gray-800 rounded-2xl p-8 text-center transition-colors duration-300">
+          <h3 className="text-2xl font-bold text-white mb-4 transition-colors duration-300">
             Want to Join Our Team?
           </h3>
-          <p className="text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto transition-colors duration-300">
+          <p className="text-gray-300 mb-8 max-w-2xl mx-auto transition-colors duration-300">
             We're always looking for passionate individuals who want to
             contribute to cutting-edge research and development in robotics,
             automation, and informatics. Whether you're a student looking to
@@ -486,7 +486,7 @@ export default function Team() {
             </a>
             <a
               href="/projects"
-              className="rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 px-6 py-3 text-sm font-semibold text-gray-900 dark:text-white shadow-sm hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors duration-200"
+              className="rounded-md border border-gray-600 bg-gray-700 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 transition-colors duration-200"
             >
               View Our Projects
             </a>
@@ -495,26 +495,26 @@ export default function Team() {
           {/* Team Stats */}
           <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-3">
             <div>
-              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 transition-colors duration-300">
+              <div className="text-3xl font-bold text-purple-400 transition-colors duration-300">
                 1
               </div>
-              <div className="text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300">
+              <div className="text-sm text-gray-300 transition-colors duration-300">
                 Faculty & Professionals
               </div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 transition-colors duration-300">
+              <div className="text-3xl font-bold text-purple-400 transition-colors duration-300">
                 20+
               </div>
-              <div className="text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300">
+              <div className="text-sm text-gray-300 transition-colors duration-300">
                 Student Members
               </div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 transition-colors duration-300">
+              <div className="text-3xl font-bold text-purple-400 transition-colors duration-300">
                 5+
               </div>
-              <div className="text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300">
+              <div className="text-sm text-gray-300 transition-colors duration-300">
                 Active Projects
               </div>
             </div>

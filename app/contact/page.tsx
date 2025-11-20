@@ -16,10 +16,10 @@ export default function Contact() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl transition-colors duration-300">
+          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl transition-colors duration-300">
             Get in Touch
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300 transition-colors duration-300">
+          <p className="mt-6 text-lg leading-8 text-gray-300 transition-colors duration-300">
             Have questions about our projects, want to collaborate, or interested in joining our team? 
             We'd love to hear from you. Reach out and let's start a conversation.
           </p>

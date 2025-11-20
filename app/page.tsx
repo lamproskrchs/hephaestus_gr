@@ -76,7 +76,7 @@ export default function Home() {
         
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl transition-colors duration-300">
+            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl transition-colors duration-300">
               Hephaestus Team
             </h1>
             
@@ -89,7 +89,7 @@ export default function Home() {
               />
             </div>
             
-            <p className="mt-8 text-lg leading-8 text-gray-600 dark:text-gray-300 transition-colors duration-300">
+            <p className="mt-8 text-lg leading-8 text-gray-300 transition-colors duration-300">
               Hephaestus is a university research team in robotics, automation, rocketry, and informatics. We focus on hands-on projects, 3D modeling, and collaborative research while supporting the growth and education of our junior members.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -99,7 +99,7 @@ export default function Home() {
               >
                 View Projects
               </Link>
-              <Link href="/team" className="group text-sm font-semibold leading-6 text-gray-900 dark:text-white hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
+              <Link href="/team" className="group text-sm font-semibold leading-6 text-white hover:text-purple-400 transition-colors duration-200">
                 Meet the Team <span className="inline-block group-hover:translate-x-2 transition-transform duration-300 ease-out" aria-hidden="true">→</span>
               </Link>
             </div>
@@ -117,10 +117,10 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-purple-600 dark:text-purple-400 transition-colors duration-300">About Us</h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl transition-colors duration-300">
+            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl transition-colors duration-300">
               Innovating the Future of Technology
             </p>
-            <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300 transition-colors duration-300">
+            <p className="mt-6 text-lg leading-8 text-gray-300 transition-colors duration-300">
               We are a passionate team of students and researchers working on cutting-edge robotics, 
               automation, and informatics projects. Our mission is to bridge the gap between 
               theoretical knowledge and practical applications.

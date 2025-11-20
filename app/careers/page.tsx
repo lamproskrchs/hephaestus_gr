@@ -2,12 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { 
-  PhotoIcon, 
-  CubeIcon, 
-  PaintBrushIcon,
-} from '@heroicons/react/24/outline';
 import {UsersIcon} from "@heroicons/react/16/solid";
+// Removed ThemeProvider import
 
 const positions = [
     {
@@ -62,7 +58,7 @@ export default function CareersPage() {
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 transition-colors duration-300">
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 transition-colors duration-300">
             Join Our Team
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">

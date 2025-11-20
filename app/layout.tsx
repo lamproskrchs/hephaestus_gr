@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
-import { ThemeProvider } from "./components/ThemeProvider";
 import RocketScrollIndicator from "./components/RocketScrollIndicator";
 import { Analytics } from "@vercel/analytics/next"
 
@@ -28,16 +27,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white dark:bg-gray-900 transition-colors duration-300 pt-20`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-900 pt-20`}
       >
-        <ThemeProvider>
-          <Navigation />
-          {children}
-          <Footer />
-          <RocketScrollIndicator />
-        </ThemeProvider>
+        <Navigation />
+        {children}
+        <Footer />
+        <RocketScrollIndicator />
         <Analytics />
       </body>
     </html>
