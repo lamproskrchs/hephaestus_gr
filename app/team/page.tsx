@@ -56,6 +56,16 @@ export default function Team() {
         image: "/boy.png",
         social: {},
       },
+
+        {
+            name: "Stratos Choropoulos",
+            role: "Electrical & Computer Engineering Student",
+            year: "",
+            expertise: "",
+            email: "",
+            image: "/boy.png",
+            social: {},
+        },
     ],
     athena: [
       {
@@ -149,6 +159,37 @@ export default function Team() {
           twitter: "",
         },
       },
+
+
+        {
+            name: "Giorgos Dimos",
+            role: "Electrical & Computer Engineering Student",
+            year: "",
+            expertise: "",
+            email: "",
+            image: "/boy.png",
+            social: {},
+        },
+        {
+            name: "Eirini Psarra",
+            role: "Engineering Student",
+            year: "",
+            expertise: "",
+            email: "",
+            image: "/girl.png",
+            social: {},
+        },
+        {
+            name: "Konstantinos Tasios",
+            role: "",
+            year: "",
+            expertise: "",
+            email: "",
+            image: "/boy.png",
+            social: {},
+        }
+
+
     ],
 
     hermes: [
@@ -248,6 +289,148 @@ export default function Team() {
           twitter: "",
         },
       },
+
+
+        {
+            name: "Antonia Kranitsa",
+            role: "Mechanical/Aerospace Engineering Student",
+            year: "",
+            expertise: "",
+            email: "",
+            image: "/girl.png",
+            social: {
+                linkedin: "",
+                github: "",
+                instagram: "",
+                twitter: "",
+            },
+        },
+        {
+            name: "Stella Papastamou",
+            role: "Engineering Student",
+            year: "",
+            expertise: "",
+            email: "",
+            image: "/girl.png",
+            social: {
+                linkedin: "",
+                github: "",
+                instagram: "",
+                twitter: "",
+            },
+        },
+        {
+            name: "Sotiris Bisias",
+            role: "Engineering Student",
+            year: "",
+            expertise: "",
+            email: "",
+            image: "/boy.png",
+            social: {
+                linkedin: "",
+                github: "",
+                instagram: "",
+                twitter: "",
+            },
+        },
+        {
+            name: "Konstantinos Michelakos",
+            role: "Engineering Student",
+            year: "",
+            expertise: "",
+            email: "",
+            image: "/boy.png",
+            social: {
+                linkedin: "",
+                github: "",
+                instagram: "",
+                twitter: "",
+            },
+        },
+        {
+            name: "Panagiotis Metaxas",
+            role: "Engineering Student",
+            year: "",
+            expertise: "",
+            email: "",
+            image: "/boy.png",
+            social: {
+                linkedin: "",
+                github: "",
+                instagram: "",
+                twitter: "",
+            },
+        },
+        {
+            name: "Giorgos Tsogas",
+            role: "Engineering Student",
+            year: "",
+            expertise: "",
+            email: "",
+            image: "/boy.png",
+            social: {
+                linkedin: "",
+                github: "",
+                instagram: "",
+                twitter: "",
+            },
+        },
+        {
+            name: "Afroditi Gkonia",
+            role: "Engineering Student",
+            year: "",
+            expertise: "",
+            email: "",
+            image: "/girl.png",
+            social: {
+                linkedin: "",
+                github: "",
+                instagram: "",
+                twitter: "",
+            },
+        },
+        {
+            name: "Angelos Morakis",
+            role: "Engineering Student",
+            year: "",
+            expertise: "",
+            email: "",
+            image: "/boy.png",
+            social: {
+                linkedin: "",
+                github: "",
+                instagram: "",
+                twitter: "",
+            },
+        },
+        {
+            name: "Nikolas-Ilias Vouros",
+            role: "Engineering Student",
+            year: "",
+            expertise: "",
+            email: "",
+            image: "/boy.png",
+            social: {
+                linkedin: "",
+                github: "",
+                instagram: "",
+                twitter: "",
+            },
+        },
+        {
+            name: "Giorgos Zafiropoulos",
+            role: "Engineering Student",
+            year: "",
+            expertise: "",
+            email: "",
+            image: "/boy.png",
+            social: {
+                linkedin: "",
+                github: "",
+                instagram: "",
+                twitter: "",
+            },
+        }
     ],
     heron: [
        {
@@ -287,7 +470,55 @@ export default function Team() {
         image: "/boy.png",
         social: {},
       },
+        {
+            name: "Vasilis Papakonstantinou",
+            role: "Electrical & Computer Engineering Student",
+            year: "",
+            expertise: "PLC Programming, Industrial Automation",
+            email: "",
+            image: "/boy.png",
+            social: {},
+        }
     ],
+
+      marketing: [
+          {
+              name: "Marilia Venetsanou",
+              role: "Marketing & Communications",
+              year: "",
+              expertise: "",
+              email: "",
+              image: "/girl.png",
+              social: {},
+          },
+          {
+              name: "Evangelos Mykoniatis",
+              role: "Marketing & Communications",
+              year: "",
+              expertise: "",
+              email: "",
+              image: "/boy.png",
+              social: {},
+          },
+          {
+              name: "Giannis Tokmakidis",
+              role: "Marketing & Communications",
+              year: "",
+              expertise: "",
+              email: "",
+              image: "/boy.png",
+              social: {},
+          },
+          {
+              name: "Konstantina K.",
+              role: "Marketing & Communications",
+              year: "",
+              expertise: "",
+              email: "",
+              image: "/girl.png",
+              social: {},
+          },
+      ]
   };
 
   const categories = [
@@ -326,6 +557,15 @@ export default function Team() {
         "Team members creating building automation and energy management systems.",
       members: teamMembers.heron,
     },
+
+      {
+          title: "Marketing",
+          key: "marketing",
+          description:
+              "Marketing team of hephaestus",
+          members: teamMembers.marketing,
+      },
+
     {
       title: "Faculty Advisors",
       key: "teachers",

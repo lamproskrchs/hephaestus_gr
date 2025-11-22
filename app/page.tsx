@@ -309,7 +309,7 @@ export default function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent">
                     <div className="absolute bottom-4 left-4 text-white">
-                      <p className="text-lg font-semibold">Team</p>
+                      <p className="text-lg font-semibold">Rocketry</p>
                     </div>
                   </div>
                 </div>
@@ -357,7 +357,7 @@ export default function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent">
                     <div className="absolute bottom-4 left-4 text-white">
-                      <p className="text-lg font-semibold">Rocketry</p>
+                      <p className="text-lg font-semibold">Smart Campus</p>
                     </div>
                   </div>
                 </div>
@@ -373,7 +373,7 @@ export default function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent">
                     <div className="absolute bottom-4 left-4 text-white">
-                      <p className="text-lg font-semibold">Hephaestus style</p>
+                      <p className="text-lg font-semibold">Innovation</p>
                     </div>
                   </div>
                 </div>
@@ -405,7 +405,7 @@ export default function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent">
                     <div className="absolute bottom-4 left-4 text-white">
-                      <p className="text-lg font-semibold">Team</p>
+                      <p className="text-lg font-semibold">The Team</p>
                     </div>
                   </div>
                 </div>
